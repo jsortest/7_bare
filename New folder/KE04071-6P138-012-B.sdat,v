@@ -1,0 +1,3704 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  V_2-TE-KE00-289-1_0_0_0:1.1.1.1 Keysight:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2017.04.13.07.03.39;  author user2;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2017.04.13.07.03.39;  author user2;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@! Agilent AOI Device Type Component Library
+!
+! Rev 2.0 August 2003
+!
+! Image intensity not calibrated for intensity yet
+!
+
+USER      A1990-3733  
+# LED (1600x1600um) SMT
+DEVICE    bsm01720-3733
+SEARCH   2620    1592
+BOUND       0       0       0
+BODY     1900    1200      76    -133      44       0
+LEADS     310     386    -590     190       6       0
+PADS      234     800       0     200       0       0
+NUM_PINS    0     190       0       0
+THRESH    400     270     270      60      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       0      0      0      0 255     4
+CAMDATA     6       0       0       0
+Orient0  -533     418     176     174      0      4      0 -30  0   0   0 0 0 ""
+PASTE       0       0       0       0       0      50       0      50
+ALocation_p    0      50     160   
+
+# Capacitor - c2421 (5400x6000) - Algorithm Devleoped for standard 2421 component
+DEVICE    b2421
+SEARCH   8000    6600
+BOUND       0       0       0
+BODY     5400    6000       0       0       8       0
+LEADS       0       0       0       0       0       0
+PADS      500    5000       0       0       0       0
+NUM_PINS    0     150       0       0
+THRESH    100     400     400     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     5       0       0       0
+
+# Capacitor - bc0612 (1500x3200) - Algorithm Devleoped for wide 612 component
+DEVICE    bc0612-wd
+SEARCH   2400    3600
+BOUND       0       0       0
+BODY     1400    3200       0       0       9       0
+LEADS       0       0       0       0       0       0
+PADS      200    2700      25       0       0       0
+NUM_PINS    0     155       0       0
+THRESH     30     225     250    1000      60       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       6       0       0      0      0      0   0     0
+CAMDATA     6       0       0       0
+
+# Capacitor - bc1632 (1500x3000) -
+DEVICE    bc1632
+SEARCH   2400    3600
+BOUND       0       0       0
+BODY     1400    3000       0       0       9       0
+LEADS       0       0       0       0       0       0
+PADS      200    2700      25       0       0       0
+NUM_PINS    0     155       0       0
+THRESH     30     225     250    1000      60       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       6       0       0      0      0      0   0     0
+CAMDATA     6       0       0       0
+
+# default Bright Box
+DEVICE    bdefault
+SEARCH   5250    4200
+BOUND       0       0       0
+BODY     3500    2800       0       0       8       0
+LEADS    1000    1200       0       0       0       0
+PADS        0       0       0       0       0       0
+NUM_PINS    0       0       0       0
+THRESH    150     150     150      50       0       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     0       0       0       0
+
+# Diode -6000x5000
+DEVICE    bdiode
+SEARCH   7866    5494
+BOUND       0       0       0
+BODY     5800    4800       0       0       9       0
+LEADS       0       0       0       0       0       0
+PADS      400    4000       0     200       0       0
+NUM_PINS    0     160       0       0
+THRESH    180     600     600     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     5       0       2       0
+
+# Diode -2200x2000
+DEVICE    bdiode-a1
+SEARCH   3300    2200
+BOUND       0       0       0
+BODY     2200    2000       0       0       9       0
+LEADS       0       0       0       0       0       0
+PADS      350    1000       0       0       0       0
+NUM_PINS    0     150       0       0
+THRESH    100     300     300     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     5       0       3       0
+
+# Diode 1550x1125
+DEVICE    bdiode-a2
+SEARCH   3470    1724
+BOUND       0       0       0
+BODY     1550    1125       0       0       8       0
+LEADS     262     830       0       0       0       0
+PADS        1       1       0     200       0       0
+NUM_PINS    0       0       0       0
+THRESH     30     300     600     200       0       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       6       0       0      0      0      0   0     0
+CAMDATA     7       0       3       0
+Orient0     0    -600     400     100      0      0      0   0  0   0   0 0 0 ""
+
+# ECAP - 10kx10k
+DEVICE    becap-10kx10k
+SEARCH  13500   13500
+BOUND       0       0       0
+BODY    10000   10000       0       0       8       0
+LEADS    1000    1000       0       0       0       0
+PADS        1       1       0     200       0       0
+NUM_PINS    0       0       0       0
+THRESH    200    2000    2000     200       0       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       2       0       0      0      0      0   0     0
+CAMDATA     3       0      16       2
+Orient0  -556    3668    1400     250      0      0      1   0  0 500 2947 0 0 ""
+
+# ECAP - 14kx14k
+DEVICE    becp-14kx14k
+SEARCH  20000   20000
+BOUND       0       0       0
+BODY    14000   14000       0       0       8       0
+LEADS    1000    1000       0       0       0       0
+PADS        1       1       0     200       0       0
+NUM_PINS    0       0       0       0
+THRESH    200    2000    2000     200       0       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     3       0      16       2
+Orient0  -661   -7894    2451     500      0      0      1   0  0   0   0 0 1 ""
+
+# FUSE 5kx3k
+DEVICE    bfuse_5kx3k
+SEARCH   6550    3500
+BOUND       0       0       0
+BODY     4900    2400       0       0       8       0
+LEADS       0       0       0       0       0       0
+PADS      350    1900       0     200       0       0
+NUM_PINS    0     150       0       0
+THRESH    150     350     350     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     3       0       2       0
+
+# FUSE 1206
+DEVICE    bfuse-1206
+SEARCH   4500    3000
+BOUND       0       0       0
+BODY     3200    1500       0       0       9       0
+LEADS       0       0       0       0       0       0
+PADS      300    1200       0     200       0       0
+NUM_PINS    0     150       0       0
+THRESH    100     350     350     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     4       0       0       0
+
+# FUSE - 5kx7k
+DEVICE    bfuse-5kx7k
+SEARCH   5800    9500
+BOUND       0       0       0
+BODY     5000    7000       0       0      11       0
+LEADS       0       0       0       0       0       0
+PADS        1       1     -46       0       0       0
+NUM_PINS    0     160       0       0
+THRESH      0     500     500     100       0       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     5       0       0       0
+Orient0  3705      23     318    1455      0      0      0   0  0   0   0 0 0 ""
+
+# BGA -(12x12)
+DEVICE    bga-12x12
+SEARCH  14000   14000
+BOUND       0       0       0
+BODY    11848   12066       0       0       8       0
+LEADS    2000    2000    5843    5919       2       0
+PADS        0       0       0     200       0       0
+NUM_PINS    0       0       0       0
+THRESH   -150     250     250     100       0       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     4       0       0       0
+Orient0  4833    4735     800     800      0      4      1   0  0   0   0 0 0 ""
+
+# Inductor - 805
+DEVICE    bind-0805
+SEARCH   3256    2134
+BOUND       0       0       0
+BODY     2000    1500       0       0       8       0
+LEADS     600     600    1300       0       5       0
+PADS        0       0       0       0       0       0
+NUM_PINS    0       0       0       0
+THRESH   -160     300     300     100       0       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       5       0       0      0      0      0   0     0
+CAMDATA     4       0       0       0
+
+# Inductor - 909
+DEVICE    bind-0909
+SEARCH   4000    3200
+BOUND       0       0       0
+BODY     2200    2200       0       0       9       0
+LEADS    1000    1000    1000       0       0       0
+PADS      300    2000     400       0       0       0
+NUM_PINS    0     150       0       0
+THRESH   -190     250     250     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     4       0       2       0
+
+# Inductor 5048
+DEVICE    bind-5048
+SEARCH  13500   13500
+BOUND       0       0       0
+BODY    12600   12100       0       0       8       0
+LEADS    5000     900     -66    5294       4       0
+PADS        0       0       0     200       0       0
+NUM_PINS    0       0       0       0
+THRESH   -130     500     500     100       0       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       1       0       0      0      0      0   0     0
+CAMDATA     6       0       2       0
+
+# LED - 1208
+DEVICE    bled-1208
+SEARCH   4414    3232
+BOUND       0       0       0
+BODY     3000    2100       0       0       8       0
+LEADS       0       0       0       0       0       0
+PADS        1       1       0       0       0       0
+NUM_PINS    0       0       0       0
+THRESH    100     250     350     150       0       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     4       0       0       0
+Orient0   893    1269     250     250      0      0      0   0  0   0   0 0 0 ""
+
+# LED (1600x1600um) SMT
+DEVICE    bled-1211
+SEARCH   3000    3000
+BOUND       0       0       0
+BODY     1600    1600       0       0       8       0
+LEADS       0       0       0       0       0       0
+PADS        0       0       0     200       0       0
+NUM_PINS    0       0       0       0
+THRESH    180     150     150     100       0       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     4       0       0       0
+Orient0     0     400     500     250      0      3      0   0  0   0   0 0 0 ""
+
+# MELF 1208
+DEVICE    bmelf-1208
+SEARCH   3586    3106
+BOUND       0       0       0
+BODY     2700    2100       0       0       8       0
+LEADS     500     500    1000     600       4       0
+PADS      200    1600       0       0       0       0
+NUM_PINS    0     160       0       0
+THRESH   -250     350     250     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       1       0       0      0      0      0   0     0
+CAMDATA     0       0       2       2
+
+# Oscillator -13kx8k
+DEVICE    bosc-13kx8k
+SEARCH  14500    9000
+BOUND       0       0       0
+BODY    13000    8000       0       0       9       0
+LEADS       0       0       0       0       0       0
+PADS        0       0       0       0       0       0
+NUM_PINS    0       0       0       0
+THRESH    150     400     400     100       0       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       2       0       0      0      0      0   0     0
+CAMDATA     3       0       0       0
+Orient0  1977    5498     500     500      0      0      0   0  0   0   0 0 0 ""
+
+# Oscillator -5kx7k
+DEVICE    bosc-5k-7k
+SEARCH   6776    7606
+BOUND       0       0       0
+BODY     4600    6900       0       0       9       0
+LEADS       1       1       0       0       0       0
+PADS        1       1       0       0       0       0
+NUM_PINS    0       0       0       0
+THRESH    200     350     350     100       0       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       2       0       0      0      0      0   0     0
+CAMDATA     3       0       0       0
+Orient0  2818   -1068     682     614      0      4      0   0  0   0   0 0 0 ""
+
+# Oscillator -5kx7k
+DEVICE    bosc-5kx7k
+SEARCH   5500    7800
+BOUND       0       0       0
+BODY     4600    6800       0       0       9       0
+LEADS       1       1       0       0       0       0
+PADS        0       0       0     200       0       0
+NUM_PINS    0       0       0       0
+THRESH    150     500     500     100       0       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     3       0       0       0
+Orient0  2159   -1091     500     500      0      4      1   0  0   0   0 0 0 ""
+
+# Oscillator -6kx6k
+DEVICE    bosc-6kx6k
+SEARCH   7000    7000
+BOUND       0       0       0
+BODY     5900    5900       0       0       9       0
+LEADS    3000    3000       0       0       0       0
+PADS        0       0       0     200       0       0
+NUM_PINS    0       0       0       0
+THRESH    200     500     500     100       0       0       0       0       0       0
+FILTER      0       2       1       0
+Colour      0       2       0       0      0      0      0   0     0
+CAMDATA     5       0       2       0
+
+# Oscillator -6kx8k
+DEVICE    bosc-6kx8k
+SEARCH   8066    8330
+BOUND       0       0       0
+BODY     6300    8000       0       0       9       0
+LEADS       0       0       0       0       0       0
+PADS        1       1       0       0       0       0
+NUM_PINS    0       0       0       0
+THRESH    200     400     400     100       0       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       1       0       0      0      0      0   0     0
+CAMDATA     3       0       2       0
+Orient0   478    1545    2500     500      0      1      1   0  0   0   0 0 0 ""
+
+# Resistor - 2010 (5000x2500) Algorithm used for standard 2010 component
+DEVICE    br2010-a1
+SEARCH   6217    3000
+BOUND       0       0       0
+BODY     3659    1938       0       0       9       0
+LEADS    1631    1850       0       0       0       0
+PADS      320    2026     750     200       0       0
+NUM_PINS    0     180       0       0
+THRESH   -110     350     350     150      35       0       0       0       0       0
+FILTER      0       3       0       0
+Colour      0       1       0       0      0      0      0   0     0
+CAMDATA     0       0       0       0
+
+# Tantalum - 3216_A - Algorithm designed for yellow tantalums
+DEVICE    btant-a-3216
+SEARCH   4000    3000
+BOUND       0       0       0
+BODY     3200    1600       0       0       8       0
+LEADS       0       0       0       0       0       0
+PADS      250    1200       0     200       0       0
+NUM_PINS    0     160       0       0
+THRESH    180     300     400     120      40       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     4       0       0       0
+Orient0   600    1040     150     500      0      3      0   0  0   0   0 0 2 ""
+
+# Tantalum - 3528_B - Algorithm designed for yellow tantalums
+DEVICE    btant-b-3528
+SEARCH   5100    5000
+BOUND       0       0       0
+BODY     3400    3000       0       0       8       0
+LEADS       0       0       0       0       0       0
+PADS      300    1800      50     200       0       0
+NUM_PINS    0     160       0       0
+THRESH    200     300     600     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     3       0       0       0
+Orient0  1200    1000     200     600      0      3      0   0  0   0   0 0 2 ""
+
+# Tantalum - 3528_B - Algorithm designed for yellow tantalums
+DEVICE    btant-b-3528-a1
+SEARCH   4500    5000
+BOUND       0       0       0
+BODY     2800    3400       0       0      11       0
+LEADS       0       0       0       0       0       0
+PADS      300    1800       0     200       0       0
+NUM_PINS    0     160       0       0
+THRESH    200     300     600     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     5       0       0       0
+Orient0  -949    -931     600     250      0      3      0   0  0   0   0 0 0 ""
+
+# Tantalum - 6032_C - Algorithm designed for yellow tantalums
+DEVICE    btant-c-6032
+SEARCH   7200    5500
+BOUND       0       0       0
+BODY     5700    3200       0       0       8       0
+LEADS       0       0       0       0       0       0
+PADS      350    2200       0       0       0       0
+NUM_PINS    0     160       0       0
+THRESH    200     400     400     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     4       0       0       0
+Orient0 -1350   -2050     200     700      0      3      0   0  0   0   0 0 0 ""
+
+# Tantalum - 6032_C - Algorithm designed for yellow tantalums
+DEVICE    btant-c-6032-a1
+SEARCH   7200    5500
+BOUND       0       0       0
+BODY     5700    3200       0       0       9       0
+LEADS       0       0       0       0       0       0
+PADS      350    1800       0       0       0       0
+NUM_PINS    0     160       0       0
+THRESH    180     400     400     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     5       0       0       0
+Orient0  1320    1910     200     700      0      3      0   0  0   0   0 0 0 ""
+GENERAL_p    0       0       0       0      0      2
+
+# Tantalum - 7343_D - Algorithm designed for yellow tantalums
+DEVICE    btant-d-7343
+SEARCH   9000    5800
+BOUND       0       0       0
+BODY     7300    4300       0       0       9       0
+LEADS       0       0       0       0       0       0
+PADS      500    2000       0       0       0       0
+NUM_PINS    0     160       0       0
+THRESH    200     600     600     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     4       0       0       0
+Orient0 -1649    2652     380     907      0      0      0   0  0   0   0 0 0 ""
+
+# Tantalum - 7343_D - Algorithm designed for black tantalums
+DEVICE    btant-d-7343-bk
+SEARCH   8500    6000
+BOUND       0       0       0
+BODY     6900    4000       0       0       9       0
+LEADS     620    2500   -1403       0       6       0
+PADS      300    2000       0     200       0       0
+NUM_PINS    0     160       0       0
+THRESH    100     500     500     100      50       0       0       0       0       0
+FILTER      0       2       0       0
+Colour      0       5       0       0      0      0      0   0     0
+CAMDATA    10       0       3       2
+Orient0 -1466    2566     300     600      0      3      1   0  0   0   0 0 0 ""
+
+# Tantalum - 7343_D - Algorithm designed for black tantalums
+DEVICE    btant-d-7343-bk-a1
+SEARCH   9006    5131
+BOUND       0       0       0
+BODY     6900    4138       0       0       8       0
+LEADS     750    2502    1273       0       6       0
+PADS      250    1800     125     200       0       0
+NUM_PINS    0     160       0       0
+THRESH    150     500     750     100      30       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       5       0       0      0      0      0   0     0
+CAMDATA    10       0       3       2
+Orient0  1407   -2351     300     600      0      3      1   0  0   0   0 0 0 ""
+
+# Capacitor - 201 (500x250) - Algorithm designed for standard 201 geometry 
+DEVICE    c0201
+SEARCH   1000     600
+BOUND       0       0       0
+BODY      500     250       0       0       9      64
+LEADS     100     250       0       0       0       0
+PADS      100     200       0       0       0       0
+NUM_PINS    0     160       0       0
+THRESH    100     150     150     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    19      34       0       0
+PASTE      30      80     160       0       0       0       0       0
+
+# Capacitor - 402 (950x475) - Algorithm designed for standard 402 geometry
+DEVICE    c0402
+SEARCH   1500     900
+BOUND       0       0       0
+BODY      950     475       0       0       9      64
+LEADS     200     475       0       0       0       0
+PADS      150     350       0       0       0       0
+NUM_PINS    0     160       0       0
+THRESH    100     200     200     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    19      34       0       0
+PASTE      30      80     160       0       0       0       0       0
+
+# Capacitor - 603 (1450x750) - Algorithm designed for standard 603 geometry
+DEVICE    c0603
+SEARCH   2300    1350
+BOUND       0       0       0
+BODY     1450     750       0       0       9      64
+LEADS     340     750       0       0       0       0
+PADS      200     600       0       0       0       0
+NUM_PINS    0     160       0       0
+THRESH    100     350     350     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    19      34       0       0
+PASTE      30      80     160       0       0       0       0       0
+
+# Capacitor - 603 (1500x750) - Algorithm designed for long 603 geometry
+DEVICE    c0603-lg
+SEARCH   2300    1350
+BOUND       0       0       0
+BODY     1500     750       0       0       9      64
+LEADS     340     750       0       0       0       0
+PADS      200     600       0       0       0       0
+NUM_PINS    0     160       0       0
+THRESH    100     350     350     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    19      34       0       0
+PASTE      30      80     160       0       0       0       0       0
+
+# Capacitor - 603 (1400x750) - Algorithm designed for short 603 geometry
+DEVICE    c0603-sh
+SEARCH   2300    1350
+BOUND       0       0       0
+BODY     1400     750       0       0       9      64
+LEADS     340     750       0       0       0       0
+PADS      200     600       0       0       0       0
+NUM_PINS    0     160       0       0
+THRESH    100     350     350     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    19      34       0       0
+PASTE      30      80     160       0       0       0       0       0
+
+# Capacitor - 805 (1900x1150) - Algorihtm developed for standard 805 component
+DEVICE    c0805
+SEARCH   3000    2000
+BOUND       0       0       0
+BODY     1900    1150       0       0       9      64
+LEADS     450    1150       0       0       0       0
+PADS      250     950       0       0       0       0
+NUM_PINS    0     160       0       0
+THRESH    100     400     400     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    19      34       0       0
+PASTE      30      80     160       0       0       0       0       0
+GENERAL_p    0       0       0       0      0      1
+
+# Capacitor - 805 (2000x1150) - Algorihtm developed for long 805 component
+DEVICE    c0805-lg
+SEARCH   3000    2000
+BOUND       0       0       0
+BODY     2000    1150       0       0       9      64
+LEADS     450    1150       0       0       0       0
+PADS      250     950       0       0       0       0
+NUM_PINS    0     160       0       0
+THRESH    100     400     400     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    19      34       0       0
+PASTE      30      80     160       0       0       0       0       0
+GENERAL_p    0       0       0       0      0      1
+
+# Capacitor - 805 (1800x1150) - Algorihtm developed for short 805 component
+DEVICE    c0805-sh
+SEARCH   3000    2000
+BOUND       0       0       0
+BODY     1800    1150       0       0       9      64
+LEADS     450    1150       0       0       0       0
+PADS      250     950       0       0       0       0
+NUM_PINS    0     160       0       0
+THRESH    100     400     400     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    19      34       0       0
+PASTE      30      80     160       0       0       0       0       0
+GENERAL_p    0       0       0       0      0      1
+
+# Capacitor - 1206 (3000x1500) - Algorithm Devleoped for standard 1206 component
+DEVICE    c1206
+SEARCH   4200    2250
+BOUND       0       0       0
+BODY     3000    1500       0       0       9      64
+LEADS     450    1500       0       0       0       0
+PADS      300    1200       0       0       0       0
+NUM_PINS    0     160       0       0
+THRESH    100     500     500     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    19      34       0       0
+PASTE      30      80     160       0       0       0       0       0
+
+# Capacitor - 1206 (3100x1500) - Algorithm Devleoped for long 1206 component
+DEVICE    c1206-lg
+SEARCH   4200    2250
+BOUND       0       0       0
+BODY     3100    1500       0       0       9      64
+LEADS     450    1500       0       0       0       0
+PADS      300    1200       0       0       0       0
+NUM_PINS    0     160       0       0
+THRESH    100     500     500     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    19      34       0       0
+PASTE      30      80     160       0       0       0       0       0
+
+# Capacitor - 1206 (2900x1500) - Algorithm Devleoped for short 1206 component
+DEVICE    c1206-sh
+SEARCH   4200    2250
+BOUND       0       0       0
+BODY     2900    1500       0       0       9      64
+LEADS     450    1500       0       0       0       0
+PADS      300    1200       0       0       0       0
+NUM_PINS    0     160       0       0
+THRESH    100     500     500     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    19      34       0       0
+PASTE      30      80     160       0       0       0       0       0
+
+# Capacitor - 1210 (3000x2500) - Algorithm Devleoped for standard 1210 component
+DEVICE    c1210
+SEARCH   4000    3100
+BOUND       0       0       0
+BODY     3000    2500       0       0       9      64
+LEADS     650    2500       0       0       0       0
+PADS      300    1900       0       0       0       0
+NUM_PINS    0     150       0       0
+THRESH    100     400     400     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    19      34       0       0
+PASTE      30      80     160       0       0       0       0       0
+
+# Capacitor - 1210 (3350x2500) - Algorithm Devleoped for long 1210 component
+DEVICE    c1210-lg
+SEARCH   4000    3100
+BOUND       0       0       0
+BODY     3350    2500       0       0       9      64
+LEADS     650    2500       0       0       0       0
+PADS      300    1900       0       0       0       0
+NUM_PINS    0     150       0       0
+THRESH    100     400     400     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    19      34       0       0
+PASTE      30      80     160       0       0       0       0       0
+
+# Capacitor - 1210 (3000x2350) - Algorithm Devleoped for narrow 1210 component
+DEVICE    c1210-na
+SEARCH   4000    3100
+BOUND       0       0       0
+BODY     3000    2350       0       0       9      64
+LEADS     650    2350       0       0       0       0
+PADS      300    1900       0       0       0       0
+NUM_PINS    0     150       0       0
+THRESH    100     400     400     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    19      34       0       0
+PASTE      30      80     160       0       0       0       0       0
+
+# Capacitor - 1812 (4500x3000) - Algorithm Devleoped for standard 1812 component
+DEVICE    c1812
+SEARCH   6000    4500
+BOUND       0       0       0
+BODY     4500    3000       0       0       9      64
+LEADS     670    3000       0       0       0       0
+PADS      400    2400       0       0       0       0
+NUM_PINS    0     160       0       0
+THRESH    100     600     600     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    19      34       0       0
+PASTE      30      80     160       0       0       0       0       0
+
+# Capacitor - 1812 (4200x3000) - Algorithm Devleoped for short 1812 component
+DEVICE    c1812-sh
+SEARCH   6000    4500
+BOUND       0       0       0
+BODY     4200    3000       0       0       9      64
+LEADS     670    3000       0       0       0       0
+PADS      400    2400       0       0       0       0
+NUM_PINS    0     160       0       0
+THRESH    100     600     600     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    19      34       0       0
+PASTE      30      80     160       0       0       0       0       0
+
+# Capacitor - 1825 (4200x3000) - Algorithm Devleoped for standard 1825 component
+DEVICE    c1825
+SEARCH   6000    8000
+BOUND       0       0       0
+BODY     4200    6250       0       0       9      64
+LEADS     800    6250       0       0       0       0
+PADS      500    3500       0       0       0       0
+NUM_PINS    0     160       0       0
+THRESH    100     600     600     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    19      34       0       0
+
+# Capacitor - 1825 (4000x6250) - Algorithm Devleoped for narrow 1825 component
+DEVICE    c1825-na
+SEARCH   6000    8000
+BOUND       0       0       0
+BODY     4000    6250       0       0       9      64
+LEADS     800    6250       0       0       0       0
+PADS      500    3500       0       0       0       0
+NUM_PINS    0     160       0       0
+THRESH    100     600     600     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    19      34       0       0
+
+# Capacitor - 1825 (4400x6250) - Algorithm Devleoped for wide 1825 component
+DEVICE    c1825-wd
+SEARCH   6000    8000
+BOUND       0       0       0
+BODY     4400    6250       0       0       9      64
+LEADS     800    6250       0       0       0       0
+PADS      500    3500       0       0       0       0
+NUM_PINS    0     160       0       0
+THRESH    100     600     600     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    19      34       0       0
+
+# default Capacitor
+DEVICE    cdefault
+SEARCH   2400    1600
+BOUND       0       0       0
+BODY     1600     800       0       0       9       0
+LEADS     300     800       0       0       0       0
+PADS       80     600       0       0       0       0
+NUM_PINS    0     150       0       0
+THRESH     75     200     200      70      50       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA    19       0       3       0
+
+# Fuse - 1206
+DEVICE    cfuse-1206
+SEARCH   4200    2250
+BOUND       0       0       0
+BODY     3050    1500       0       0       9      64
+LEADS     350    1500       0       0       0       0
+PADS      300    1200       0       0       0       0
+NUM_PINS    0     160       0       0
+THRESH    100     500     500     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       2       0       1      0      0      0   0     0
+CAMDATA    51      34       0       0
+PASTE      60      90     210       0       0       0       0       0
+
+# Inductor 603
+DEVICE    cind-0603
+SEARCH   2300    1100
+BOUND       0       0       0
+BODY     1500     750       0       0       9       0
+LEADS     300     750       0       0       0       0
+PADS      200     600       0     100       0       0
+NUM_PINS    0     150       0       0
+THRESH     50     300     300     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA    19       0       0       0
+
+# Inductor -805
+DEVICE    cind-0805
+SEARCH   3200    2100
+BOUND       0       0       0
+BODY     1862    1100       0       0       9       0
+LEADS     450    1100       0       0       0       0
+PADS      300    1000       0       0       0       0
+NUM_PINS    0     150       0       0
+THRESH    100     350     350     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA    51      34       0       0
+
+# MELF 402 (1000x500um)
+DEVICE    cmelf0402
+SEARCH   1500     900
+BOUND       0       0       0
+BODY      950     200       0       0       8       4
+LEADS     300     200       0       0       0       0
+PADS      100     350      35       0       0       0
+NUM_PINS    0     210       0       0
+THRESH     85     200     200     100      50       0       0       0       0       0
+FILTER      0     200       0       0
+CAMDATA    19      34       0       0
+
+# MELF 603 (1600x800um)
+DEVICE    cmelf0603
+SEARCH   2300    1350
+BOUND       0       0       0
+BODY     1450     300       0       0       8       4
+LEADS     340     300       0       0       0       0
+PADS      200     650      25       0       0       0
+NUM_PINS    0     210       0       0
+THRESH     85     320     265     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA    19      34       0       0
+
+# MELF 805 (2000x1200um)
+DEVICE    cmelf0805
+SEARCH   3200    2100
+BOUND       0       0       0
+BODY     1950     500       0       0       8       4
+LEADS     500     500       0       0       0       0
+PADS      300    1000      35       0       0       0
+NUM_PINS    0     210       0       0
+THRESH     80     400     400     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA    19      34       0       0
+
+# MELF 1206 (3200x1600um)
+DEVICE    cmelf1206
+SEARCH   4000    2200
+BOUND       0       0       0
+BODY     3200     500       0       0       8       4
+LEADS     500     500       0       0       0       0
+PADS      300    1200      50       0       0       0
+NUM_PINS    0     210       0       0
+THRESH    100     400     300     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA    19      34       0       0
+
+# MELF 1406 (3500x1400um)
+DEVICE    cmelf1406
+SEARCH   4500    2200
+BOUND       0       0       0
+BODY     3500     500       0       0       8       4
+LEADS     500     500       0       0       0       0
+PADS      300    1200      50       0       0       0
+NUM_PINS    0     210       0       0
+THRESH    100     400     300     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA    19      34       0       0
+
+# Capacitor - (3100x1450)
+DEVICE    cz1206
+SEARCH   4200    2500
+BOUND       0       0       0
+BODY     3100    1450       0       0       9      64
+LEADS     250    1450       0       0       0       0
+PADS      300    1200       0       0       0       0
+NUM_PINS    0     160       0       0
+THRESH    100     500     500     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    19      34       0       0
+PASTE      30      80     160       0       0       0       0       0
+
+# NoLoad 603 "passive," this can be used for capacitors or
+DEVICE    d0603-nl
+SEARCH   3110    1852
+BOUND       0       0       0
+BODY      500     651     750       0       8       0
+LEADS       0       0       0       0       0       0
+PADS        1       1       0       0       0       0
+NUM_PINS    0       0       0       0
+THRESH   -300       0       0       1       0       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     0       0       6       0
+
+# NoLoad 805 "passive," this can be used for capacitors or
+DEVICE    d0805-nl
+SEARCH   3110    1852
+BOUND       0       0       0
+BODY      500     851     950       0       8       0
+LEADS       0       0       0       0       0       0
+PADS        1       1       0       0       0       0
+NUM_PINS    0       0       0       0
+THRESH   -300       0       0       1       0       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     0       0       6       0
+
+# NoLoad 1206 "passive," this can be used for capacitors or
+DEVICE    d1206-nl
+SEARCH   3110    1852
+BOUND       0       0       0
+BODY      551    1208       0       0       8       0
+LEADS       0       0       0       0       0       0
+PADS        1       1       0       0       0       0
+NUM_PINS    0       0       0       0
+THRESH     80       0       0       0       0       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       3       0       0      0      0      0   0     0
+CAMDATA     0       0       0       2
+
+# NoLoad 2010 "passive," this can be used for capacitors or
+DEVICE    d2010-nl
+SEARCH   4181    2617
+BOUND       0       0       0
+BODY     2081    1871       0       0       8       0
+LEADS       0       0       0       0       0       0
+PADS        1       1       0       0       0       0
+NUM_PINS    0       0       0       0
+THRESH    160       0       0       0       0       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       3       0       0      0      0      0   0     0
+CAMDATA     0       0       0       2
+
+# BGA -(14x14)
+DEVICE    dbga-14x14-bk
+SEARCH  20200   20200
+BOUND       0       0       0
+BODY    14000   13500       0       0       8       0
+LEADS       0       0       0       0       0       0
+PADS        0       0       0       0       0       0
+NUM_PINS    0       0       0       0
+THRESH   -120     381     381       0       0       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       2       0       0      0      0      0   0     0
+CAMDATA     0       0       0       2
+
+# BGA -(14x14)-white
+DEVICE    dbga-14x14-wt
+SEARCH  20200   20200
+BOUND       0       0       0
+BODY    13980   13474       0       0       8       0
+LEADS       0       0       0       0       0       0
+PADS        0       0       0       0       0       0
+NUM_PINS    0       0       0       0
+THRESH    190     381     381       0       0       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     0       0       0       0
+
+# BGA -(19x19)-white
+DEVICE    dbga-19x19-wt
+SEARCH  19500   19500
+BOUND       0       0       0
+BODY    18212   18470       0       0       8       0
+LEADS       0       0       0       0       0       0
+PADS        0       0       0       0       0       0
+NUM_PINS    0       0       0       0
+THRESH    150     381     381       0       0       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     0       0       0       0
+Orient0  6205   -5794    1114    1136      0      5      1   0  0   0   0 0 0 ""
+
+# BGA -(20x20)
+DEVICE    dbga-20x20-bk
+SEARCH  20000   20000
+BOUND       0       0       0
+BODY    19500   19500       0       0       8       0
+LEADS       0       0       0       0       0       0
+PADS        0       0       0       0       0       0
+NUM_PINS    0       0       0       0
+THRESH   -100     250     250       0       0       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     0       0       0       0
+Orient0  7777    7480    1094     940      0      4      1   0  0   0   0 0 0 ""
+
+# BGA -(20x20)
+DEVICE    dbga-20x20-bk-a1
+SEARCH  25392   25936
+BOUND       0       0       0
+BODY    19500   19500       0       0       8       0
+LEADS       0       0       0       0       0       0
+PADS        0       0       0       0       0       0
+NUM_PINS    0       0       0       0
+THRESH    150     250     250       0       0       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       2       0       0      0      0      0   0     0
+CAMDATA     0       0       0       0
+Orient0 -1355    7910    1094     940      0      4      0   0  0   0   0 0 0 ""
+
+# default Statistics
+DEVICE    ddefault
+SEARCH   4318    2413
+BOUND       0       0       0
+BODY     2000    2000       0       0       8       0
+LEADS       0       0       0       0       0       0
+PADS        0       0       0       0       0       0
+NUM_PINS    0       0       0       0
+THRESH    150     200     200       0       0       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     0       0       0       0
+
+# ECAP - 1kx1k
+DEVICE    decap-1kx1k
+SEARCH   5000    3500
+BOUND       0       0       0
+BODY      800     800       0       0       8       0
+LEADS       0       0       0       0       0       0
+PADS        1       1       0       0       0       0
+NUM_PINS    0       0       0       0
+THRESH    100       0       0       1       0       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     0       0       0       0
+
+# Fuse - 1206 - Presence (Classic) and Joint Analysis - Presence boxes designed
+DEVICE    dfuse-1206
+SEARCH   4057    1987
+BOUND       0       0       0
+BODY      300     600    1111       0       8       0
+LEADS       0       0       0       0       0       0
+PADS      200     943     500       0       0       0
+NUM_PINS    0     160       0       0
+THRESH   -445       0       0       0      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       2       0       0      0      0      0   0     0
+CAMDATA     0       0       6       0
+
+# Tantalum - 3216_A - Algorithm designed for black tantalums
+DEVICE    dtant-a-3216-bk
+SEARCH   4500    3000
+BOUND       0       0       0
+BODY     1200    1500       0       0       8       0
+LEADS       0       0       0       0       0       0
+PADS      250    1000    1100       0       0       0
+NUM_PINS    0       0       0       0
+THRESH    200       0       0       0      50       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     0       0       0       0
+Orient0   600    1100     150     500      0      3      0   0  0   0   0 0 2 ""
+
+# Tantalum - 3528_B - Algorithm designed for black tantalums
+DEVICE    dtant-b-3528-bk
+SEARCH   4500    4400
+BOUND       0       0       0
+BODY     1200    2500       0       0       8       0
+LEADS       0       0       0       0       0       0
+PADS      250    1000    1200       0       0       0
+NUM_PINS    0       0       0       0
+THRESH    200       0       0       0      50       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     0       0       0       0
+Orient0  1000     800     250     600      0      3      0   0  0   0   0 0 2 ""
+
+# Tantalum - 6032_C - Algorithm designed for black tantalums
+DEVICE    dtant-c-6032-bk
+SEARCH   7027    4164
+BOUND       0       0       0
+BODY      800    2200    2500       0       8       0
+LEADS       0       0       0       0       0       0
+PADS        0       0       0       0       0       0
+NUM_PINS    0       0       0       0
+THRESH   -150       0       0       0       0       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     0       0       3       0
+Orient0  -800    2300     300     800      0      2      1   0  0   0   0 0 0 ""
+
+# Tantalum - 7343_D - Algorithm designed for black tantalums
+DEVICE    dtant-d-7343
+SEARCH      0       0
+BOUND       0       0       0
+BODY      500    2000   -3300       0       8       0
+LEADS       0       0       0       0       0       0
+PADS      300    2000    3350       0       0       0
+NUM_PINS    0       0       0       0
+THRESH   -100       0       0       0      50       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     0       0       0       0
+Orient0  1600    2300     300     900      0      2      1   0  0   0   0 0 1 ""
+
+# default Ellipse
+DEVICE    edefault
+SEARCH   3000    3000
+BOUND       0       0       0
+BODY     2000    2000       0       0       0       0
+LEADS       0       0       0       0       0       0
+PADS        0       0       0       0       0       0
+NUM_PINS    0       0       0       0
+THRESH      0       0       0       0       0       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     0       0       0       0
+
+# Resistor - 201 (500x250) - Algorithm designed for standard 201 geometry
+DEVICE    r0201
+SEARCH   1000     600
+BOUND       0       0       0
+BODY      600     300       0       0      11      64
+LEADS     100     300       0       0       0       0
+PADS      100     200       0       0       0       0
+NUM_PINS    0     160       0     180
+THRESH    100     150     150     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    50      34       0       0
+PASTE      25      75     160       0       0       0       0       0
+GENERAL_p    0       0       0       0      0      1
+
+# Resistor - 402 (950x475) - Algorithm designed for standard 402 geometry
+DEVICE    r0402
+SEARCH   1500     900
+BOUND       0       0       0
+BODY      950     475       0       0      11      64
+LEADS     200     475       0       0       0       0
+PADS      150     350       0       0       0       0
+NUM_PINS    0     160       0     180
+THRESH    100     200     200     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    50      34       0       0
+PASTE      25      75     160       0       0       0       0       0
+GENERAL_p    0       0       0       0      0      1
+
+# Resistor - 603 (1500x750) Algorithm used for standard 603 component
+DEVICE    r0603
+SEARCH   2250    1200
+BOUND       0       0       0
+BODY     1500     750       0       0      11      64
+LEADS     300     750       0       0       0       0
+PADS      200     600       0       0       0       0
+NUM_PINS  180     160       0     180
+THRESH    100     300     300     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    50      34       0       0
+PASTE      25      75     160       0       0      50       0      50
+ALocation_p    0      50     160   
+GENERAL_p    0       0       0       0      0      1
+
+# Resistor - 603 (1500x750) Algorithm used for long 603 component
+DEVICE    r0603-lg
+SEARCH   2250    1200
+BOUND       0       0       0
+BODY     1550     750       0       0      11      64
+LEADS     300     750       0       0       0       0
+PADS      200     600       0       0       0       0
+NUM_PINS  180     160       0     180
+THRESH    100     300     300     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    50      34       0       0
+PASTE      25      75     160       0       0       0       0       0
+GENERAL_p    0       0       0       0      0      1
+
+# Resistor - 603 (1500x750) Algorithm used for extra long 603 component
+DEVICE    r0603-xlg
+SEARCH   2250    1200
+BOUND       0       0       0
+BODY     1650     750       0       0      11      64
+LEADS     300     750       0       0       0       0
+PADS      200     600       0       0       0       0
+NUM_PINS  180     160       0     180
+THRESH    100     300     300     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    50      34       0       0
+PASTE      25      75     160       0       0       0       0       0
+GENERAL_p    0       0       0       0      0      1
+
+# Resistor - 805 (2000x1250) Algorithm used for standard 805 component
+DEVICE    r0805
+SEARCH   3200    2000
+BOUND       0       0       0
+BODY     2000    1250       0       0      11      64
+LEADS     300    1250       0       0       0       0
+PADS      300    1000       0       0       0       0
+NUM_PINS    0     160       0     180
+THRESH    100     300     300     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    50      34       0       0
+PASTE      25      75     160       0       0       0       0       0
+
+# Resistor - 805 (2000x1200) Algorithm used for narrow 805 component
+DEVICE    r0805-na
+SEARCH   3200    2000
+BOUND       0       0       0
+BODY     2000    1200       0       0      11      64
+LEADS     300    1200       0       0       0       0
+PADS      300    1000       0       0       0       0
+NUM_PINS    0     160       0     180
+THRESH    100     300     300     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    50      34       0       0
+PASTE      25      75     160       0       0       0       0       0
+
+# Resistor - 1206 (3000x1500) Algorithm used for standard 1206 component
+DEVICE    r1206
+SEARCH   4500    2300
+BOUND       0       0       0
+BODY     3000    1500       0       0      11      64
+LEADS     450    1500       0       0       0       0
+PADS      300    1200       0       0       0       0
+NUM_PINS  180     160       0     180
+THRESH    100     500     500     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    50      34       0       0
+PASTE      25      75     160       0       0       0       0       0
+
+# Resistor - 1206 (3200x1500) Algorithm used for long 1206 component
+DEVICE    r1206-lg
+SEARCH   4500    2300
+BOUND       0       0       0
+BODY     3200    1500       0       0      11      64
+LEADS     450    1500       0       0       0       0
+PADS      300    1200       0       0       0       0
+NUM_PINS  180     160       0     180
+THRESH    100     500     500     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    50      34       0       0
+PASTE      25      75     160       0       0       0       0       0
+
+# Resistor - 1210 (3000x2500) Algorithm used for standard 1210 component
+DEVICE    r1210
+SEARCH   4400    3500
+BOUND       0       0       0
+BODY     3000    2500       0       0      11      64
+LEADS     400    2500       0       0       0       0
+PADS      300    2200      20       0       0       0
+NUM_PINS  180     160       0     180
+THRESH    100     500     500     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    50      34       0       0
+PASTE      25      75     160       0       0       0       0       0
+
+# Resistor - 1210 (3100x2500) Algorithm used for long 1210 component
+DEVICE    r1210-lg
+SEARCH   4400    3500
+BOUND       0       0       0
+BODY     3100    2500       0       0      11      64
+LEADS     400    2500       0       0       0       0
+PADS      300    2200      20       0       0       0
+NUM_PINS  180     160       0     180
+THRESH    100     500     500     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    50      34       0       0
+PASTE      25      75     160       0       0       0       0       0
+
+# Resistor - 2010 (5000x2500) Algorithm used for standard 2010 component
+DEVICE    r2010
+SEARCH   7348    3060
+BOUND       0       0       0
+BODY     5000    2500       0       0      11      64
+LEADS     600    2500       0       0       0       0
+PADS      600    2200       0       0       0       0
+NUM_PINS    0     160       0     180
+THRESH    100     400     400     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    50      34       0       0
+PASTE      25      75     160       0       0       0       0       0
+
+# Resistor - 2010 (5200x2500) Algorithm used for long 2010 component
+DEVICE    r2010-lg
+SEARCH   7348    3060
+BOUND       0       0       0
+BODY     5200    2500       0       0      11      64
+LEADS     600    2500       0       0       0       0
+PADS      600    2200       0       0       0       0
+NUM_PINS    0     160       0     180
+THRESH    100     400     400     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    50      34       0       0
+PASTE      25      75     160       0       0       0       0       0
+
+# Resistor - 2412 (6250x3000) Algorithm used for standard 2412 component
+DEVICE    r2412
+SEARCH   9000    4500
+BOUND       0       0       0
+BODY     6250    3000       0       0      11      64
+LEADS     650    3000       0       0       0       0
+PADS      300    2500       0       0       0       0
+NUM_PINS  180     160       0     180
+THRESH    100     600     600     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    50      34       0       0
+PASTE      25      75     160       0       0       0       0       0
+
+# Resistor - 2412 (6450x3200) Algorithm used for large 2412 component
+DEVICE    r2412-lg
+SEARCH   9000    4500
+BOUND       0       0       0
+BODY     6450    3200       0       0      11      64
+LEADS     650    3200       0       0       0       0
+PADS      300    2500       0       0       0       0
+NUM_PINS  180     160       0     180
+THRESH    100     600     600     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA    50      34       0       0
+PASTE      25      75     160       0       0       0       0       0
+
+# default Resistor
+DEVICE    rdefault
+SEARCH   2400    1600
+BOUND       0       0       0
+BODY     1600     800       0       0      11       0
+LEADS     300     800       0       0       0       0
+PADS      160     600       0       0       0       0
+NUM_PINS    0     150       0       0
+THRESH    100     200     200      70      50       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     0       0       0       0
+
+# diode -7600x3000
+DEVICE    rdiode
+SEARCH   9400    6500
+BOUND       0       0       0
+BODY     7600    3000       0       0      11       0
+LEADS     350    3000       0       0       0       0
+PADS      300    2500       0       0       0       0
+NUM_PINS    0     150       0       0
+THRESH    100     500     500     100      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       1       0       0      0      0      0   0     0
+CAMDATA    50      34       0       0
+Orient0     0   -2674    1103     514      0      1      1   0  0   0   0 0 0 ""
+
+# CapNetwork Array cnet0805x3 white body
+DEVICE    scnet6-0805-wh
+SEARCH   4000    2500
+BOUND    -400       0       0
+BODY     3100    1500       0       0       0      32
+LEADS     400     100       0       0    1000       0
+PADS        0       0       0       0       0       0
+NUM_PINS    0       0       3       3
+THRESH    150     200     200     100       0      30      30       0       0       0
+FILTER      0     300     200     200
+CAMDATA     6     161       0       0
+
+# CapNetwork Array cnet0603x4 Dark body
+DEVICE    scnet8-0603-dk
+SEARCH   3600    2500
+BOUND    -300       0       0
+BODY     3500    1350       2     200       0       0
+LEADS     450     200      50       0     800       0
+PADS      300     300       0    -300       0       0
+NUM_PINS    0       0       4       4
+THRESH    150     250     400      75       0      20      30       0       0       0
+FILTER      0     500     500     200
+CAMDATA     6     161       0     200
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# CapNetwork Array cnet0603x4 Bright body
+DEVICE    scnet8-0603-wh
+SEARCH   4162    2706
+BOUND    -200       0       0
+BODY     3059    1553       0       0       7      32
+LEADS     350     350     100      85     800       0
+PADS      600     200       0    -350       0       0
+NUM_PINS    0       0       4       4
+THRESH    140     200     200      70       0      30       0       0       0       0
+FILTER      0     400     200       0
+CAMDATA     6     161       0     150
+
+# CapNetwork Array cnet-0603x4
+DEVICE    scnet8-0603x4
+SEARCH   3604    2445
+BOUND    -200       0       0
+BODY     3050    1556       0     200       0      32
+LEADS     350       0      50       0     810       0
+PADS      300     300       0       0       0       0
+NUM_PINS    0       0       4       4
+THRESH     65    1200    1200      75       0       0       0       0       0       0
+FILTER      0     270     300      50
+CAMDATA     6     161       0       0
+PASTE     600     600       0    1200       0       0       0       0
+GENERAL_p    0       0       0       0      0      1
+
+# CapNetwork Array cnet-0603x4 Alternative
+DEVICE    scnet8-0603x4-a1
+SEARCH   3604    2245
+BOUND    -200      90       0
+BODY     3050    1556       0     200       0      32
+LEADS     350       0      50       0     810       0
+PADS      300     300       0       0       0       0
+NUM_PINS    0       0       4       4
+THRESH     65    1200    1200      75       0       0       0       0       0       0
+FILTER      0     270     300      50
+CAMDATA     6     161       0       0
+PASTE     600     600       0    1200       0       0       0       0
+GENERAL_p    2       0       0       0      0      1
+
+# default Multi Lead IC
+DEVICE    sdefault
+SEARCH  13000   13000
+BOUND       0      40       0
+BODY        0   10000       2       0       5       0
+LEADS     250    1000      75      85     500       0
+PADS      400     220       0       0       0       0
+NUM_PINS    0       0      16      16
+THRESH     80     150     150      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+
+# DIODE sma
+DEVICE    sdiode-sma
+SEARCH   6500    2264
+BOUND   -2000       0       0
+BODY     4450       1       2       0       7       0
+LEADS     350    1450       0      85    1270       0
+PADS      900    1200       0       0       0       0
+NUM_PINS    1       1       0       0
+THRESH     80     400     400      70       0      30      30       0       0       0
+FILTER      0       0       0     600
+CAMDATA     4     161       0     150
+Orient0  -800   -1503     150     500      0      2      1  -5  0   0   0 0 0 ""
+
+# DIODE smb
+DEVICE    sdiode-smb
+SEARCH   6500    2264
+BOUND   -3300       0       0
+BODY     4650       1       2       0       7       0
+LEADS     350    2000       0      85    1270       0
+PADS      900    1200       0       0       0       0
+NUM_PINS    1       1       0       0
+THRESH     80     400     400      70       0      20      40       0       0       0
+FILTER      0       0       0     950
+CAMDATA   260     161       0     150
+Orient0  -800   -1603     150     500      0      1      1  -5  0   0   0 0 0 ""
+
+# DIODE sod106
+DEVICE    sdiode-sod106
+SEARCH   6500    2264
+BOUND   -1800       0       0
+BODY     4700       1       2       0       7       0
+LEADS     300    1450       0      85    1270       0
+PADS      900    1200       0       0       0       0
+NUM_PINS    1       1       0       0
+THRESH     80     400     400      70       0      30      30       0       0       0
+FILTER      0       0       0     600
+CAMDATA   260     161       0     150
+Orient0  -800   -1503     150     500      0      4      1  -2  0   0   0 0 0 ""
+
+# DIODE sod323
+DEVICE    sdiode-sod323
+SEARCH   6000    2264
+BOUND   -1900       0       0
+BODY     4450       1       2       0       7       0
+LEADS     350    1320       0      85    1270       0
+PADS      900    1200       0       0       0       0
+NUM_PINS    1       1       0       0
+THRESH     80     400     400      70       0      30      30       0       0       0
+FILTER      0       0       0     600
+CAMDATA   260     161       0     150
+Orient0  -800   -1503     150     500      0      2      1  -5  0   0   0 0 0 ""
+
+# SSOP dram44/50
+DEVICE    sdram44of50-11k
+SEARCH  20500   12300
+BOUND    -300      50       0
+BODY        0   11000       2       0       5       0
+LEADS     350     800     100      85     800       0
+PADS      250     250       0       0       0       0
+NUM_PINS    0       0      25      25
+THRESH     80     180     180      50       0      40      10       0       0       0
+FILTER      0     300     200      45
+Colour      0       0       0       0     70      0      0   0     0
+CAMDATA   262     161       3     150
+Orient0  3800    9200     800     800      0      5      1  -2  0   0   0 0 0 ""
+EXTRA_p     0       0      70       0      0      8      0   0
+ALocation_p    2       2       0   
+
+# SOCKET skt-plcc20
+DEVICE    skt-plcc20
+SEARCH   9000    9000
+BOUND       0     200       0
+BODY     7350    7300       2       0       5       0
+LEADS     550     325     200      85    1270       0
+PADS      800     500       0       0       0       0
+NUM_PINS    5       5       5       5
+THRESH     80     200     200      70       0      40      10       0       0       0
+FILTER   1000       0     200    -460
+CAMDATA     2     161       0     150
+Orient0     0   -1600     700     500      0      5      0 -10  1   0   0 0 0 ""
+
+# SOCKET skt-plcc32-11x13
+DEVICE    skt-plcc32-11x13
+SEARCH  13384   15781
+BOUND    -300     120       0
+BODY    10600   13200       2       0       5       0
+LEADS    1000     400     200      85    1270       0
+PADS      300     300     500     500       0       0
+NUM_PINS    9       9       7       7
+THRESH     80     200     200      70       0      40      10       0       0       0
+FILTER      0       0       0   -1200
+Colour      0       2       0       0      0      0      0   0     0
+CAMDATA   262     161       0     150
+Orient0 -6756    5376     500     500      0      0      1  -5  0   0   0 0 0 ""
+ALocation_p    0       2       0   
+
+# SOCKET skt-plcc44
+DEVICE    skt-plcc44
+SEARCH  18000   18000
+BOUND    -250       0       0
+BODY    15900   15900       2       0       5       0
+LEADS    1300     400     200      85    1275       0
+PADS      200     200     750     750       0       0
+NUM_PINS   11      11      11      11
+THRESH     80     200     200      70       0      40      10       0       0       0
+FILTER      0    -200       0   -1500
+Colour      0       0       0       0     60      0      0   0     0
+CAMDATA   262     161       0     170
+Orient0     0   -4000    1000    1100      0      4      1 -10  1   0   0 0 0 ""
+EXTRA_p     0       0      60       0      0      8      0   0
+ALocation_p    0       2       0   
+
+# SSOP sMSOP8 (5000x3000um) MSOP8
+DEVICE    slsop8-2k
+SEARCH   2951    3821
+BOUND       0      40       0
+BODY        0    2093       2       0       5       0
+LEADS     250     700     100      85     650       0
+PADS      250     150       0       0       0       0
+NUM_PINS    0       0       4       4
+THRESH     80     125     145      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0   511     950     300     300      0      2      1   0  0   0   0 0 2 ""
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP slsop8-3k
+DEVICE    slsop8-3k
+SEARCH   2318    3914
+BOUND    -100      50       0
+BODY        0    2800       2       0       5       0
+LEADS     200     450      50      85     500       0
+PADS      150     100       0       0       0       0
+NUM_PINS    0       0       4       4
+THRESH    110     250     250      70       0      40      10       0       0       0
+FILTER      0     200     200      50
+Colour      0       0       0       1      0      0      0   0     0
+CAMDATA   262     161       0     150
+Orient0   650     480     378     360      0      4      1   0  0   0   0 0 0 ""
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP smsop10 (5000x3000um)
+DEVICE    smsop10-4k
+SEARCH   3300    6000
+BOUND      50       0       0
+BODY        0    4000       2       0       5       0
+LEADS     200     950      75      85     500       0
+PADS      150     150       0       0       0       0
+NUM_PINS    0       0       5       5
+THRESH     80     125     145      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0  1000    1000     400     400      0      4      0   0  0   0   0 0 0 ""
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP sMSOP8 (5000x3000um) MSOP8
+DEVICE    smsop8-3k
+SEARCH   2800    4000
+BOUND       0       0       0
+BODY        0    2800       2       0       5       0
+LEADS     250     480     100      85     500       0
+PADS      150     150       0       0       0       0
+NUM_PINS    0       0       4       4
+THRESH     50     125     145      70       0      40      10       0       0       0
+FILTER      0     150     100      45
+CAMDATA   262     161       0     150
+Orient0   600     450     250     250      0      0      0 -10  0   0   0 0 0 ""
+EXTRA_p     0       0      70       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP sMSOP8 (5000x3000um) MSOP8
+DEVICE    smsop8-4k
+SEARCH   3200    6000
+BOUND       0      40       0
+BODY        0    3900       2       0       5       0
+LEADS     250     950     100      85     650       0
+PADS      250     250       0       0       0       0
+NUM_PINS    0       0       4       4
+THRESH     80     125     145      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0  -950    -950     400     400      0      4      0  -5  0   0   0 0 0 ""
+EXTRA_p     0       0      60       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SOIC soic14 (6050x8650um) SOIC14
+DEVICE    soic14-5k
+SEARCH  10400    7200
+BOUND       0      80       0
+BODY        0    4950       2       0       5       0
+LEADS     380    1050     200      85    1270       0
+PADS      300     300       0       0       0       0
+NUM_PINS    0       0       7       7
+THRESH     80     200     200      70       0      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0 -1700       0     200    2000      0      0      0 -10  0   0   0 0 0 ""
+EXTRA_p     0       0      60       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SOIC soic14m (6050x8650um)
+DEVICE    soic14-6k5
+SEARCH  10400    9000
+BOUND       0      80       0
+BODY        0    6500       2       0       5       0
+LEADS     350    1250     200      85    1270       0
+PADS      300     300       0       0       0       0
+NUM_PINS    0       0       7       7
+THRESH     80     250     250      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0 -1700       0     200    2000      0      0      0   0  0   0   0 0 0 ""
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SOIC soic14W (6050x8650um) SO14W
+DEVICE    soic14-9k
+SEARCH  10400   11500
+BOUND       0      80       0
+BODY        0    8950       2       0       5       0
+LEADS     350    1450     200      85    1270       0
+PADS      300     300       0       0       0       0
+NUM_PINS    0       0       7       7
+THRESH     80     250     250      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0 -1700       0     200    2000      0      0      0   0  0   0   0 0 0 ""
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SOIC soic16 (6050x9900um) SO16
+DEVICE    soic16-5k
+SEARCH  11600    7200
+BOUND       0      80       0
+BODY        0    4950       2       0       5       0
+LEADS     390    1050     200      85    1270       0
+PADS      300     300       0       0       0       0
+NUM_PINS    0       0       8       8
+THRESH     80     200     200      70       0      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0 -1700       0     200    2000      0      0      0 -10  0   0   0 0 0 ""
+EXTRA_p     0       0      50       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SOIC soic16-9k (6050x9900um) SO16M
+DEVICE    soic16-6k5
+SEARCH  11600    9000
+BOUND       0      80       0
+BODY        0    6500       2       0       5       0
+LEADS     390    1250     200      85    1270       0
+PADS      300     300       0       0       0       0
+NUM_PINS    0       0       8       8
+THRESH     80     200     200      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0 -1700       0     200    2000      0      0      0   0  0   0   0 0 0 ""
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SOIC soic16-9k (6050x9900um) SO16W
+DEVICE    soic16-9k
+SEARCH  11600   11500
+BOUND       0      80       0
+BODY        0    8800       2       0       5       0
+LEADS     400    1500     200      85    1270       0
+PADS      300     300       0       0       0       0
+NUM_PINS    0       0       8       8
+THRESH     80     200     200      70       0      40      10       0       0       0
+FILTER      0     400     200      65
+CAMDATA   262     161       0     150
+Orient0 -3300       0     150    2000      0      0      0  -8  0   0   0 0 0 ""
+Orient1     0   -4400     500     300      0      0      0  -7  0   0   0 0 0 ""
+EXTRA_p     0       0      70       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SOIC soic18 (11550x10300um) SO18
+DEVICE    soic18-6k
+SEARCH  13000    8000
+BOUND       0      40       0
+BODY        0    5900       2       0       5       0
+LEADS     360    1200     200      85    1270       0
+PADS      300     300       0       0       0       0
+NUM_PINS    0       0       9       9
+THRESH     80     200     200      70       0      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0     0   -6000     500     400      0      5      1  -5  0   0   0 0 0 ""
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SOIC soic18 (11550x10300um) SO18W
+DEVICE    soic18-9k
+SEARCH  13000   11500
+BOUND       0      40       0
+BODY        0    8850       2       0       5       0
+LEADS     390    1400     200      85    1270       0
+PADS      350     350       0       0       0       0
+NUM_PINS    0       0       9       9
+THRESH     80     200     200      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0 -2600   -4900     500     500      0      1      1   0  0   0   0 0 0 ""
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SOIC soic20m (11550x10300um) SO20L
+DEVICE    soic20-12k5
+SEARCH  15200   15000
+BOUND       0      60       0
+BODY        0   12500       2       0       5       0
+LEADS     440    1650     200      85    1270       0
+PADS      350     350       0       0       0       0
+NUM_PINS    0       0      10      10
+THRESH     80     200     200      70       0      40      10       0       0       0
+FILTER      0     300     300      65
+CAMDATA   262     161       0     150
+Orient0 -5291       2     181    1298      0      0      0 -10  0   0   0 0 0 ""
+Orient1 -5000   -7300     300     300      0      0      0 -10  0   0   0 0 0 ""
+EXTRA_p     0       0      60       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SOIC soic20m (11550x10300um) SO20M
+DEVICE    soic20-6k5
+SEARCH  14500    9500
+BOUND       0      80       0
+BODY        0    6500       2       0       5       0
+LEADS     390    1400     200      85    1270       0
+PADS      350     350       0       0       0       0
+NUM_PINS    0       0      10      10
+THRESH     80     200     200      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0 -2600   -4900     500     500      0      1      1   0  0   0   0 0 0 ""
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SOIC soic20-8k8-2klead
+DEVICE    soic20-8k8-2klead
+SEARCH  14000   12000
+BOUND    -200       0       0
+BODY        0    9000       2       0       5       0
+LEADS     450    1819     200      85    1270       0
+PADS      250     250       0     200       0       0
+NUM_PINS    0       0      10      10
+THRESH     90     180     250      70       0      40      10       0       0       0
+FILTER      0     200     300      70
+Colour      0       0       0       0      0      0      0  12     0
+CAMDATA   262     161       0     150
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     300     400       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SOIC soic20 (11550x10300um) SO20W
+DEVICE    soic20-9k
+SEARCH  14500   11500
+BOUND       0      40       0
+BODY        0    8950       2       0       5       0
+LEADS     390    1400     200      85    1270       0
+PADS      300     300       0       0       0       0
+NUM_PINS    0       0      10      10
+THRESH     80     200     200      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0 -3500       0     200    2000      0      0      0 -10  0   0   0 0 0 ""
+Orient1 -2500   -5400     500     500      0      1      1  -6  0   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SOIC soic20 (11550x10300um) SO20W
+DEVICE    soic20-9k-2k
+SEARCH  14500   12000
+BOUND       0      40       0
+BODY        0    8750       2       0       5       0
+LEADS     400    1900     200      85    1270       0
+PADS      300     300       0     100       0       0
+NUM_PINS    0       0      10      10
+THRESH     80     200     200      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0 -3500       0     200    2000      0      0      1 -10  0   0   0 0 0 ""
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SOIC sSOL24Gwb (10325x15400um) SOL24G wide body
+DEVICE    soic24-14k
+SEARCH  16000   17000
+BOUND       0      80       0
+BODY        0   14100       2       0       5       0
+LEADS     450    1800     200      85    1270       0
+PADS      250     250       0       0       0       0
+NUM_PINS    0       0      12      12
+THRESH     80     125     240      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0 -4600   -6800     600     600      0      0      1   0  0   0   0 0 0 ""
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SOIC soic24 SO24M
+DEVICE    soic24-6k5
+SEARCH  16700    9000
+BOUND       0      80       0
+BODY        0    6500       2       0       5       0
+LEADS     450    1250     200      85    1270       0
+PADS      250     250       0       0       0       0
+NUM_PINS    0       0      12      12
+THRESH     80     125     240      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0 -4600   -6800     600     600      0      0      1   0  0   0   0 0 0 ""
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SOIC soic24 SO24W
+DEVICE    soic24-9k
+SEARCH  16700   11500
+BOUND       0      40       0
+BODY        0    8950       2       0       5       0
+LEADS     450    1450     200      85    1270       0
+PADS      250     250       0       0       0       0
+NUM_PINS    0       0      12      12
+THRESH     80     125     240      70       0      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0  3400       0     200    1000      0      0      0  -5  0   0   0 0 0 ""
+EXTRA_p     0       0      60       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SOIC soic28 SO28W
+DEVICE    soic28-9k
+SEARCH  19300   11500
+BOUND       0      80       0
+BODY        0    8950       2       0       5       0
+LEADS     390    1350     200      85    1270       0
+PADS      250     250       0       0       0       0
+NUM_PINS    0       0      14      14
+THRESH     80     125     240      70       0      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0 -3500       0     200    1000      0      0      0 -10  0   0   0 0 0 ""
+EXTRA_p     0       0      60       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SOIC Soic32 SO32L
+DEVICE    soic32-12k5
+SEARCH  22000   15000
+BOUND       0      80       0
+BODY        0   12600       2       0       5       0
+LEADS     450    1600     200      85    1270       0
+PADS      250     250       0       0       0       0
+NUM_PINS    0       0      16      16
+THRESH     80     125     240      70       0      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0  4000    8800     800     800      0      4      1 -10  0   0   0 0 0 ""
+EXTRA_p     0       0      60       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SOIC Soic32 SO32W
+DEVICE    soic32-9k
+SEARCH  22000   12500
+BOUND       0      40       0
+BODY        0    8950       2       0       5       0
+LEADS     440    1350     200      85    1270       0
+PADS      250     250       0       0       0       0
+NUM_PINS    0       0      16      16
+THRESH     80     200     200      70       0      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0 -4600   -6800     600     600      0      0      1   0  0   0   0 0 0 ""
+EXTRA_p     0       0      70       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SOIC soic8 (6050x4900um) SOIC8
+DEVICE    soic8-5k
+SEARCH   6600    7200
+BOUND       0      80       0
+BODY        0    4950       2       0       5       0
+LEADS     400    1050     200      85    1270       0
+PADS      250     300       0       0       0       0
+NUM_PINS    0       0       4       4
+THRESH     80     200     200      70       0      40      10       0       0       0
+FILTER      0     300     200      65
+CAMDATA   262     161       0     150
+Orient0  1700       0     150    1200      0      0      0 -10  0   0   0 0 0 ""
+EXTRA_p     0       0      60       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SOIC soic8m (6050x4900um) SO8M
+DEVICE    soic8-6k5
+SEARCH   6600    9000
+BOUND    -200      80       0
+BODY        0    6600       2       0       5       0
+LEADS     400    1250     200      85    1270       0
+PADS      250     300       0       0       0       0
+NUM_PINS    0       0       4       4
+THRESH     80     250     250      70       0      40      10       0       0       0
+FILTER      0     300     300      65
+CAMDATA   262     161       0     150
+Orient0 -2100   -2000     100     300      0      1      1  -2  0   0   0 0 0 ""
+EXTRA_p     0       0      70       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SOIC soic8w (6050x4900um) SO8W
+DEVICE    soic8-9k
+SEARCH   6600   11500
+BOUND       0      80       0
+BODY        0    8950       2       0       5       0
+LEADS     400    1450     200      85    1270       0
+PADS      250     300       0       0       0       0
+NUM_PINS    0       0       4       4
+THRESH     80     250     250      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0 -1700       0     150    1200      0      0      0   0  0   0   0 0 0 ""
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# JLEAD soj32 (8510x20955um) SOJ32L
+DEVICE    soj32
+SEARCH  21000    9500
+BOUND       0      80       0
+BODY        0    8000       2       0       5       0
+LEADS     650     350     200      85    1270       0
+PADS      400     300       0     500       0       0
+NUM_PINS    0       0      16      16
+THRESH     80     300     300      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA     2     161       0     150
+Orient0 -2200   -9600     700     700      0      2      1   0  0   0   0 0 1 ""
+PASTE     600     600       0    1200       0       0       0       0
+
+# JLEAD soj44 (11175x28575um) SOJ44
+DEVICE    soj44
+SEARCH  26000   12500
+BOUND       0      40       0
+BODY        0    9880       2       0       5       0
+LEADS     750     650     200      85    1270       0
+PADS      400     300       0     500       0       0
+NUM_PINS    0       0      22      22
+THRESH     80     250     300      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA     2     161       0     150
+EXTRA_p     1    -900       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+
+# SSOP SOP28
+DEVICE    sop28-9k-2k
+SEARCH  19300   12500
+BOUND    -200     120       0
+BODY        0    9650       2       0       5       0
+LEADS     450    2350     200      85    1270       0
+PADS      250     250       0    -500       0       0
+NUM_PINS    0       0      14      14
+THRESH     80     125     240      70       5      40      10       0       0       0
+FILTER      0     300     300     100
+CAMDATA   262     161       0     150
+Orient0 -4600   -6800     600     600      0      0      1   0  0   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP SOP44
+DEVICE    sop44-11k
+SEARCH  18000   12400
+BOUND       0      40       0
+BODY        0   10900       2       0       5       0
+LEADS     350     900     150      85     800       0
+PADS      300     300       0       0       0       0
+NUM_PINS    0       0      22      22
+THRESH     80     250     250      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0  3900    8000     700     700      0      5      1   0  0   0   0 0 1 ""
+ALocation_p    2       2       0   
+
+# SOT transistor-5 lead
+DEVICE    sot5-1k5-101
+SEARCH   2900    2400
+BOUND       0       0       0
+BODY     1550       1       0       0       5       0
+LEADS     500     200     160       0     650       0
+PADS      150     150       0       0       0       0
+NUM_PINS    3       3       0       0
+THRESH     80     150     150     100       5       0      10       0       0       0
+FILTER      0     100     200      65
+Colour      0       0       0       0    100      0      0   0     0
+CAMDATA   262     161     401     150
+Orient0     0    -650      93     114      0      0      1   0  0   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SOT transistor-5 lead
+DEVICE    sot5-2k-101
+SEARCH   2900    2396
+BOUND       0       0       0
+BODY     1549    1566       0       0       5       0
+LEADS     500     200     160       0     650       0
+PADS      150     150      25      25       0       0
+NUM_PINS    3       3       0       0
+THRESH     80     150     150     100       5       0      10       0       0       0
+FILTER      0     100     200      65
+CAMDATA   262     161     401     150
+Orient0     0    -650     115     136      0      0      1   0  0   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SOT transistor-5lead
+DEVICE    sot5-2k-201
+SEARCH   3590    3072
+BOUND       0       0       0
+BODY     2108    1566       0       0       5       0
+LEADS     600     300     200       0    1000       0
+PADS      250     250       0       0       0       0
+NUM_PINS    3       3       0       0
+THRESH     80     200     200     100       5       0      10       0       0       0
+FILTER      0     200     400      65
+Colour      0       0       0       0     70      0      0   0     0
+CAMDATA   262     161     201     150
+Orient0    15     900     150     150      0      0      1   0  0   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SOT transistor-6lead
+DEVICE    sot6-1k5
+SEARCH   2900    2267
+BOUND       0      50       0
+BODY     1549    1566       0     100      10       0
+LEADS     500     200     250       0     655       0
+PADS      150     150       0       0       0       0
+NUM_PINS    3       3       0       0
+THRESH     55     200     165     100       0       0       8       0       0       0
+FILTER      0     100     200      30
+CAMDATA   262     161       0     200
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SOT sot6-2k
+DEVICE    sot6-2k
+SEARCH   3800    4000
+BOUND    -100      40       0
+BODY     1700    2150       2       0       5      64
+LEADS     270     700     200      85     950       0
+PADS      220     150       0     180       0       0
+NUM_PINS    0       0       3       3
+THRESH     80     150     150      70       0      40      10       0       0       0
+FILTER      0     300     300      50
+Colour      0       3       0       1      0      0      0   0     0
+CAMDATA   262     161       0     150
+EXTRA_p     0       0      70       0      0      8      0   0
+ALocation_p    1       2       0   
+
+# PLCC PLCC20 (8800x8800um) PLCC20
+DEVICE    splcc20
+SEARCH  10800   10800
+BOUND       0       0       0
+BODY     9260    9260       2       0       5       0
+LEADS     320     700     200      85    1270       0
+PADS      200     400     500     500       0       0
+NUM_PINS    5       5       5       5
+THRESH     80     200     200      70       0      40      10       0       0       0
+FILTER      0     200     300      40
+CAMDATA     2     161       0     180
+Orient0 -3700       0     200    2000      0      0      0   0  1   0   0 0 0 ""
+PASTE     600     600       0    1200       0       0       0       0
+
+# PLCC PLCC28 (11400x11400um) PLCC28
+DEVICE    splcc28
+SEARCH  13900   13900
+BOUND       0       0       0
+BODY    11790   11790       2       0       5       0
+LEADS     350     670     200      85    1270       0
+PADS      200     400     300     300       0       0
+NUM_PINS    7       7       7       7
+THRESH     80     200     200      70       0      40      10       0       0       0
+FILTER      0     200     300      40
+CAMDATA     2     161       0     180
+Orient0 -5000       0     300    2000      0      0      0 -10  1   0   0 0 0 ""
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    1       2       0   
+
+# PLCC splcc32-14x12
+DEVICE    splcc32-14x12
+SEARCH  15659   13000
+BOUND       0       0       0
+BODY    14301   11642       2       0       5       0
+LEADS     350     600     200      85    1270       0
+PADS      200     500     300     300       0       0
+NUM_PINS    7       7       9       9
+THRESH     80     200     200      70       0      40      10       0       0       0
+FILTER    500     300     300       0
+Colour      0       0       0       0      0      0      0  12     0
+CAMDATA     2     161       0     150
+Orient0    19   -6311    2000     350      0      0      0 -10  0   0   0 0 0 ""
+ALocation_p    1       2       0   
+
+# PLCC PLCC44 (16500x16500um) PLCC44
+DEVICE    splcc44
+SEARCH  18100   18100
+BOUND       0       0       0
+BODY    16700   16700       2       0       5       0
+LEADS     300     700     200      85    1270       0
+PADS      200     400     300     300       0       0
+NUM_PINS   11      11      11      11
+THRESH     80     200     200      70       0      40      10       0       0       0
+FILTER    400     200     300      40
+CAMDATA     2     161       0     180
+Orient0     0   -7700    2800     200      0      0      0 -20  1   0   0 0 0 ""
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    1       2       0   
+
+# PLCC PLCC52 (19000x19000um) PLCC52
+DEVICE    splcc52
+SEARCH  20900   20900
+BOUND       0       0       0
+BODY    19520   19520       2       0       5       0
+LEADS     300     690     200      85    1270       0
+PADS      200     400     500     500       0       0
+NUM_PINS   13      13      13      13
+THRESH     80     200     200      70       0      40      10       0       0       0
+FILTER      0     200     300      40
+CAMDATA     2     161       0     180
+Orient0 -9000       0     300    4000      0      0      0   0  1   0   0 0 0 ""
+PASTE     600     600       0    1200       0       0       0       0
+
+# QFP sQFP100 (23200x17200um) QFP100
+DEVICE    sqfp100-14x20
+SEARCH  24700   18500
+BOUND       0      50       0
+BODY    21800   15700       2       0       5       0
+LEADS    1600     350     100      85     650       0
+PADS      300     300       0       0       0       0
+NUM_PINS   20      20      30      30
+THRESH     80     200     200      70       5      40      10       0       0       0
+FILTER    400     200     300      65
+CAMDATA   262     161       0     150
+Orient0 -5000   -7900    1000    1000      0      5      1   0  0   0   0 0 0 ""
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# QFP sTQFP100 (16000x16000um) TQFP100
+DEVICE    sqfp100-15k
+SEARCH  17100   17100
+BOUND       0      30       0
+BODY    15000   15000       2       0       5       0
+LEADS    1000     200      75      85     500       0
+PADS      180     180       0       0       0       0
+NUM_PINS   25      25      25      25
+THRESH     80     110     110      70       5      40      10       0       0       0
+FILTER    400     200     300      65
+CAMDATA   262     161       0     150
+Orient0 -5000   -5000     700     700      0      5      1 -10  1   0   0 0 1 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# QFP sqfp100-15x21n
+DEVICE    sqfp100-15x21n
+SEARCH  17250   22950
+BOUND     200      20       0
+BODY    14900   21000       2       0       5       0
+LEADS    1000     250     150      85     650       0
+PADS      200     200       0       0       0       0
+NUM_PINS   30      30      20      20
+THRESH     80     125     125      70       0      40      10       0       0       0
+FILTER      0     150     300      45
+Colour      0       0       0       0     30      0      0   0     0
+CAMDATA   262     161       0     180
+Orient0 -8793    5801     790     765      0      5      1 -10  0   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# QFP sLQFP100 (22000x16000um) LQFP100
+DEVICE    sqfp100-20x14
+SEARCH  17250   22950
+BOUND       0      50       0
+BODY    14920   20900       2       0       5       0
+LEADS    1600     250     100      85     650       0
+PADS      200     200       0       0       0       0
+NUM_PINS   30      30      20      20
+THRESH     80     155     155      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0 -8000    5100     600     600      0      0      1   0  0   0   0 0 1 ""
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# QFP sqfp100-20x14-sp
+DEVICE    sqfp100-20x14-sp
+SEARCH  23000   18000
+BOUND       0      25       0
+BODY    20500   14700       2       0       5       1
+LEADS     270    1400     100      85     650       0
+PADS      200     200     500    2000       0       0
+NUM_PINS   20      20      30      30
+THRESH     90     120     120      70       0      40      10       0       0       0
+FILTER      0     700    -300      50
+Colour      0       0       2       0     10      0      0   0     0
+CAMDATA   262     161       0     180
+EXTRA_p     1    1000       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# QFP sqfp100-21x16-sp
+DEVICE    sqfp100-21x16-sp
+SEARCH  23500   16500
+BOUND     100      30       0
+BODY    21400   15800       2       0       5       1
+LEADS     250    1000     200      85     650       0
+PADS      200     200     500    1600       0       0
+NUM_PINS   20      20      30      30
+THRESH     90     110     110      70       0      40      10       0       0       0
+FILTER      0     200       0      45
+Colour      0       0       1       0     70      0      0   0     0
+CAMDATA   262     161       0     150
+EXTRA_p     1     750       0       0      0      8      0   0
+ALocation_p    2       2       0   
+
+# QFP sqfp120-28k-sp
+DEVICE    sqfp120-28k-sp
+SEARCH  33413   33508
+BOUND     100      50       0
+BODY    28200   28200       2       0       5       1
+LEADS     320    1600     100      85     800       0
+PADS      200     200     900    2000       0       0
+NUM_PINS   30      30      30      30
+THRESH     80     125     125      70       0      40      10       0       0       0
+FILTER    400     500    -300      65
+Colour      0       0       2     500      0      0      0   0     0
+CAMDATA   262     161       0     150
+Orient0  4840    4930     700     700      0      5      1   0  1   0   0 0 0 ""
+EXTRA_p     2     500       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# QFP QFP128 (23200x17200um) QFP128
+DEVICE    sqfp128-14x20
+SEARCH  18350   24350
+BOUND       0      50       0
+BODY    15630   21500       2       0       5       0
+LEADS    1600     250      75      85     500       0
+PADS      200     200       0       0       0       0
+NUM_PINS   38      38      26      26
+THRESH     80     125     155      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0 -4600    4700     750     750      0      1      1   0  0   0   0 0 1 ""
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# QFP QFP128
+DEVICE    sqfp128-15k
+SEARCH  18000   18000
+BOUND       0      50       0
+BODY    15000   15000       2       0       5       0
+LEADS    1000     200      50      85     400       0
+PADS      150     150       0       0       0       0
+NUM_PINS   32      32      32      32
+THRESH     80     125     155      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     180
+Orient0 -5000   -5000     750     750      0      0      0  -8  1   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# QFP sqfp128-16x22
+DEVICE    sqfp128-16x22
+SEARCH  24000   18000
+BOUND       0      25       0
+BODY    21600   15600       2       0       5       0
+LEADS    1650     200     150      85     502       0
+PADS      200     200       0       0       0       0
+NUM_PINS   26      26      38      38
+THRESH     80     200     200      70       0      40      10       0       0       0
+FILTER    200     150     300      50
+CAMDATA   262     161       0     180
+ALocation_p    2       2       0   
+
+# QFP sqfp128-22x16
+DEVICE    sqfp128-22x16
+SEARCH  24000   18000
+BOUND     100      35       0
+BODY    21600   15600       2       0       5       0
+LEADS    1650     220      50      85     500       0
+PADS      150     150       0       0       0       0
+NUM_PINS   26      26      38      38
+THRESH     80     120     120      70       0      40      10       0       0       0
+FILTER    200     400     100      50
+CAMDATA   262     161       0     180
+Orient0 -4900   -8200    1000    1000      0      0      0  -5  0   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+ALocation_p    2       2       0   
+
+# QFP sqfp132-25k-sp
+DEVICE    sqfp132-25k-sp
+SEARCH  27000   27000
+BOUND       0      50       0
+BODY    25000   25000       2       0       5       1
+LEADS     250    1000     100      85     635       0
+PADS      200       0     500    1500       0       0
+NUM_PINS   33      33      33      33
+THRESH     80     110     110      70       0      40      10       0       0       0
+FILTER      0     300    -300      45
+CAMDATA   262     161       0     150
+EXTRA_p     1     550       0       0      0      8      0   0
+ALocation_p    2       2       0   
+
+# QFP sqfp144-20k5
+DEVICE    sqfp144-20k5
+SEARCH  23200   23200
+BOUND       0      40       0
+BODY    20500   20500       2       0       5       0
+LEADS     900     200     100      85     500       0
+PADS      150     150       0       0       0       0
+NUM_PINS   36      36      36      36
+THRESH     80     110     110      70       0      40      10       0       0       0
+FILTER    400     300     200      25
+Colour      0       0       2       0     30      0      0   0     0
+CAMDATA   262     161       0     150
+EXTRA_p     2      40       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# QFP sqfp144-20k5-sp
+DEVICE    sqfp144-20k5-sp
+SEARCH  23200   23200
+BOUND       0      40       0
+BODY    20500   20500       2       0       5       1
+LEADS     200     700     100      85     500       0
+PADS      200     200     200    1000       0       0
+NUM_PINS   36      36      36      36
+THRESH     80     110     110      70       0      40      10       0       0       0
+FILTER    400     300       0      25
+Colour      0       0       2      40     30      0      0   0     0
+CAMDATA   262     161       0     150
+EXTRA_p     1     450       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# QFP sLQFP144 (22000x22000um) LQFP144
+DEVICE    sqfp144-21k
+SEARCH  23200   23200
+BOUND       0      50       0
+BODY    21070   21070       2       0       5       0
+LEADS    1000     225      75      85     500       0
+PADS      200     200       0       0       0       0
+NUM_PINS   36      36      36      36
+THRESH     80     125     125      70       5      40      10       0       0       0
+FILTER    400     200     300      65
+CAMDATA   262     161       0     150
+Orient0 -8800    8800     800     800      0      0      0   0  1   0   0 0 1 ""
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# QFP sqfp160-24k5-sp
+DEVICE    sqfp160-24k5-sp
+SEARCH  25000   25000
+BOUND     100      40       0
+BODY    24500   24500       2       0       5       1
+LEADS     170     900     100      85     500       0
+PADS        1       0     300    1000       0       0
+NUM_PINS   40      40      40      40
+THRESH     80     100     100      70       0      40      10       0       0       0
+FILTER      0     400       0      45
+Colour      0       0       2     350     70      0      0   0     0
+CAMDATA   262     161       0     150
+EXTRA_p     2     350       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# QFP sqfp160-28k5-sp
+DEVICE    sqfp160-28k5-sp
+SEARCH  32000   32000
+BOUND       0      50       0
+BODY    28500   28500       2       0       5       1
+LEADS     300    1300     100      85     650       0
+PADS      200       0     350    2000       0       0
+NUM_PINS   40      40      40      40
+THRESH     80     150     150      70       0      40      10       0       0       0
+FILTER      0     600    -200      45
+Colour      0       0       2      50      0      0      0   0     0
+CAMDATA   262     161       0     150
+EXTRA_p     1    1000       0       0      0      8      0   0
+ALocation_p    2       2       0   
+
+# QFP QFP160
+DEVICE    sqfp160-29k-sp
+SEARCH  30000   30000
+BOUND       0      50       0
+BODY    29300   29300       2       0       5       1
+LEADS     200    1200     100      85     650       0
+PADS      200     200       0       0       0       0
+NUM_PINS   40      40      40      40
+THRESH     80     250     250      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+ALocation_p    2       2       0   
+
+# QFP sqfp208-28k-sp
+DEVICE    sqfp208-28k-sp
+SEARCH  31500   31500
+BOUND     100      40       0
+BODY    28900   28900       2       0       5       1
+LEADS     200     900      50      85     500       0
+PADS        1       0     450    1400       0       0
+NUM_PINS   52      52      52      52
+THRESH     80     100     100      70       0      40      10       0       0       0
+FILTER      0     200       0      45
+Colour      0       0       1      47     70      0      0   0     0
+CAMDATA   262     161       0     150
+Orient0 11200   11200     700     700      0      1      0   0  1   0   0 0 0 ""
+EXTRA_p     1     650       0       0      0      8      0   0
+ALocation_p    2       2       0   
+
+# QFP QFP208 (30600x30600um) QFP208
+DEVICE    sqfp208-29k-sp
+SEARCH  32000   32000
+BOUND     100     100       0
+BODY    28400   28400       2       0       5       1
+LEADS     150    1050      75      85     500       0
+PADS      200     400     400    1250       0       0
+NUM_PINS   52      52      52      52
+THRESH     80     100     100      70       5      40      10       0       0       0
+FILTER      0     200     300      45
+CAMDATA   262     161       0     150
+EXTRA_p     1     520       0       0      0      8      0   0
+ALocation_p    2       2       0   
+
+# QFP sqfp240-32k-sp
+DEVICE    sqfp240-32k-sp
+SEARCH  25000   25000
+BOUND       0      40       0
+BODY    32000   32000       2       0       5       1
+LEADS     220    1100      50      85     500       0
+PADS        0       0     350    1350       0       0
+NUM_PINS   60      60      60      60
+THRESH     80     110     110      70       0      40      10       0       0       0
+FILTER      0     300    -400      25
+Colour      0       0       1     700     70      0      0   0     0
+CAMDATA   262     161       0     150
+EXTRA_p     1     700       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# QFP sQFP240 (34600x34600um) QFP240
+DEVICE    sqfp240-33k-sp
+SEARCH  25000   25000
+BOUND       0      50       0
+BODY    33300   33300       2       0       5       1
+LEADS     300     900      75      85     500       0
+PADS        0       0     220     250       0       0
+NUM_PINS   60      60      60      60
+THRESH     80     125     125      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+EXTRA_p     2      75       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# QFP QFP032
+DEVICE    sqfp32-8k
+SEARCH  10000   10000
+BOUND    -200      40       0
+BODY     8000    8000       2       0       5       0
+LEADS    1000     380     150      85     800       0
+PADS      200     200       0       0       0       0
+NUM_PINS    8       8       8       8
+THRESH     80     200     200      70       0      40      10       0       0       0
+FILTER    450     200     300      65
+CAMDATA   262     161       0     150
+Orient0 -2300    2300     600     600      0      0      0 -10  0   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+ALocation_p    2       2       0   
+
+# QFP sQFP44 (13200x13200um) QFP44
+DEVICE    sqfp44-11k
+SEARCH  13500   13500
+BOUND    -100      60       0
+BODY    10900   10900       2       0       5       0
+LEADS    1000     350     150      85     800       0
+PADS      300     300       0       0       0       0
+NUM_PINS   11      11      11      11
+THRESH     80     175     175      70       0      40      10       0       0       0
+FILTER      0     300     300      65
+CAMDATA   262     161       0     150
+Orient0 -3600    3600     600     600      0      4      0 -10  1   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# QFP sqfp44-11k4
+DEVICE    sqfp44-11k4
+SEARCH  13500   13500
+BOUND       0      40       0
+BODY    11350   11350       2       0       5       0
+LEADS    1250     250     200      85     800       0
+PADS      150     150       0       0       0       0
+NUM_PINS   11      11      11      11
+THRESH     80     130     130      70       0      40      10       0       0       0
+FILTER    300     200     300      40
+Colour      0       0       0       0     70      0      0   0     0
+CAMDATA   262     161       0     150
+Orient0  3300    3300     800     800      0      4      1 -10  1   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+ALocation_p    2       2       0   
+
+# QFP sQFP44 (13900x13900um) QFP44
+DEVICE    sqfp44-12k
+SEARCH  14000   14000
+BOUND       0      50       0
+BODY    12000   12000       2       0       5       0
+LEADS    1900     350     150      85     800       0
+PADS      300     300       0       0       0       0
+NUM_PINS   11      11      11      11
+THRESH     80     175     175      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0 -2900   -2900     600     600      0      0      0   0  0   0   0 0 0 ""
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# QFP sqfp44-12k5
+DEVICE    sqfp44-12k5
+SEARCH  15750   14618
+BOUND       0      40       0
+BODY    12600   11600       2       0       5       0
+LEADS    2000     280     150      85     800       0
+PADS      200     200     200     200       0       0
+NUM_PINS   11      11      11      11
+THRESH     80     150     150      70       0      40      10       0       0       0
+FILTER      0     400     300      60
+CAMDATA   262     161       0     150
+Orient0  3000    3500     600     600      0      4      1 -20  0   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# QFP sQFP48 (9000x9000um) 500um pitch
+DEVICE    sqfp48-8k
+SEARCH   9800    9800
+BOUND       0      40       0
+BODY     8000    8000       2       0       5       0
+LEADS    1000     200      75      85     500       0
+PADS      150     150       0       0       0       0
+NUM_PINS   12      12      12      12
+THRESH     80     100     100      70       0      40      10       0       0       0
+FILTER      0     300     300      65
+CAMDATA   262     161       0     180
+Orient0  2300    2300     600     600      0      0      0 -10  1   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# QFP sqfp52-8k (12000x12000um)
+DEVICE    sqfp52-11k
+SEARCH  13500   13500
+BOUND       0      40       0
+BODY    10800   10800       2       0       5       0
+LEADS    1100     280     100      85     650       0
+PADS      200     200       0       0       0       0
+NUM_PINS   13      13      13      13
+THRESH     80     175     175      70       0      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0  4000   -4000     400     400      0      0      0  -7  1   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# QFP sLQFP64 (12000x12000um) LQFP64
+DEVICE    sqfp64-11k
+SEARCH  13250   13250
+BOUND       0      30       0
+BODY    11000   11000       2       0       5       0
+LEADS    1000     220     100      85     500       0
+PADS      180     180       0       0       0       0
+NUM_PINS   16      16      16      16
+THRESH     80     180     180      70       0      40      10       0       0       0
+FILTER    400     200     300      45
+CAMDATA   262     161       0     180
+Orient0  3800   -3800     700     700      0      5      1 -10  1   0   0 0 1 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# QFP sQFP64 (23900x17200um) QFP64
+DEVICE    sqfp64-14x20
+SEARCH  16000   22000
+BOUND       0      50       0
+BODY    14000   20000       2       0       5       0
+LEADS    1950     400     150      85    1000       0
+PADS      400     400       0       0       0       0
+NUM_PINS   19      19      13      13
+THRESH     80     300     300      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+ALocation_p    2       2       0   
+
+# QFP sLQFP64 (12000x12000um) LQFP64 
+DEVICE    sqfp64-15k
+SEARCH  17250   17250
+BOUND       0      30       0
+BODY    15000   15000       2       0       5       0
+LEADS    1050     350     100      85     800       0
+PADS      200     300    -100    -100       0       0
+NUM_PINS   16      16      16      16
+THRESH     80     180     180      70       0      40      10       0       0       0
+FILTER    400     200     300      65
+CAMDATA   262     161       0     180
+Orient0 -5000   -5000     700     700      0      5      1 -10  1   0   0 0 1 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# QFP sqfp64-15k-1k2
+DEVICE    sqfp64-15k-1k2
+SEARCH  17069   17411
+BOUND    -200      50       0
+BODY    15000   15000       2       0       5       0
+LEADS    1200     370     100      85     800       0
+PADS      250     250       0       0       0       0
+NUM_PINS   16      16      16      16
+THRESH     80     150     150      70       0      40      10       0       0       0
+FILTER      0     300     200      65
+Colour      0       0       0       0     70      0      0   0     0
+CAMDATA   262     161       0     150
+Orient0  5700    5700     727     703      0      1      1 -10  1   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+ALocation_p    2       2       0   
+
+# QFP sqfp64-15k-1k6
+DEVICE    sqfp64-15k-1k6
+SEARCH  19500   19500
+BOUND    -100      50       0
+BODY    15400   15400       2       0       5       0
+LEADS    1600     350     100      85     800       0
+PADS      300     300    -100    -100       0       0
+NUM_PINS   16      16      16      16
+THRESH     80     400     400      70       0      40      10       0       0       0
+FILTER    400     300     300      65
+Colour      0       0       0       0     70      0      0   0     0
+CAMDATA   262     161       0     150
+Orient0 -5600   -5600     500     500      0      1      1 -10  1   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# QFP sqfp64-8k
+DEVICE    sqfp64-8k
+SEARCH   9500    9500
+BOUND       0      20       0
+BODY     8000    8000       2       0       5       0
+LEADS    1000     200      50      85     400       0
+PADS      150     150       0       0       0       0
+NUM_PINS   16      16      16      16
+THRESH     80     100     100      70       0      30      10       0       0       0
+FILTER      0     200     200       0
+Colour      0       0       0       0     60      0      0   0     0
+CAMDATA   262     161       0     180
+Orient0 -2500   -2500     600     600      0      1      1 -10  1   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+ALocation_p    2       2       0   
+
+# QFP sQFP80 (23900x17200um) QFP64
+DEVICE    sqfp80-15k
+SEARCH  17500   17500
+BOUND       0      50       0
+BODY    15000   15000       2       0       5       0
+LEADS    1000     300     100      85     650       0
+PADS      180     180       0       0       0       0
+NUM_PINS   20      20      20      20
+THRESH     80     150     150      70       0      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+EXTRA_p     0       0       0       0      0      8      0   0
+ALocation_p    2       2       0   
+
+# QFP sqfp80-15k5
+DEVICE    sqfp80-15k5
+SEARCH  18500   18500
+BOUND      50      20       0
+BODY    15600   15600       2       0       5       0
+LEADS    1600     300     100      85     650       0
+PADS      200     200       0       0       0       0
+NUM_PINS   20      20      20      20
+THRESH     80     200     200      70       0      30      10       0       0       0
+FILTER    800     200     300      45
+Colour      0       0       0       0     70      0      0   0     0
+CAMDATA   262     161       0     150
+Orient0 -6219   -6089     399     400      0      0      0  -4  1   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# QFP sQFP80 (23900x17200um) QFP64
+DEVICE    sqfp80-15k6
+SEARCH  17000   17000
+BOUND       0      50       0
+BODY    15600   15600       2       0       5       0
+LEADS    1600     200     100      85     650       0
+PADS      180     180       0       0       0       0
+NUM_PINS   20      20      20      20
+THRESH     80     300     300      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+ALocation_p    2       2       0   
+
+# QFP sQFP80 (23900x17200um) QFP64
+DEVICE    sqfp80-15x21
+SEARCH  17000   22500
+BOUND       0      50       0
+BODY    15600   20500       2       0       5       0
+LEADS    1600     200     100      85     650       0
+PADS      180     180       0       0       0       0
+NUM_PINS   14      14      26      26
+THRESH     80     300     300      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+ALocation_p    2       2       0   
+
+# ResNetwork Array rnet-1206x5
+DEVICE    srnet10-1206x5
+SEARCH   7329    4616
+BOUND    -800       0       0
+BODY     1250    2609       0       0       7       0
+LEADS     600     450     150      85    1270       0
+PADS      600     200       0    -350       0       0
+NUM_PINS    0       0       5       5
+THRESH    100     200     200      70    -200      20      40       0       0       0
+FILTER      0     200     100     400
+Colour      0       0       0       0      0      0      0   8     0
+CAMDATA     6     161       0     150
+Orient0  -500   -2500     400     400      0      0      1 -20  0   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+ALocation_p    2       2       0   
+
+# ResNetwork Array rnet-0402x8
+DEVICE    srnet16-0402x8
+SEARCH   4700    2500
+BOUND       0       0       0
+BODY     3500    1250       0     200       0       0
+LEADS     250     250     100      85     500       0
+PADS      300     200       0    -250       0       0
+NUM_PINS    0       0       8       8
+THRESH    125     250     400      75       0      30      20       0       0       0
+FILTER      0     300     300     100
+Colour      0       0       0       0     60      0      0   0     0
+CAMDATA     6     161       0     150
+EXTRA_p     0       0      60       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# ResNetwork Array rnet-0402x2
+DEVICE    srnet4-0402x2
+SEARCH   1500    1500
+BOUND    -250       0       0
+BODY        0     800       2     150       0       0
+LEADS     270     150     150      85     650       0
+PADS      200     130       0    -150       0       0
+NUM_PINS    0       0       2       2
+THRESH    120     250     250      70       0      30      20       0       0       0
+FILTER      0     120     150     120
+CAMDATA     6     161       0     150
+ALocation_p    2       2       0   
+
+# ResNetwork Array rnet-0603x4
+DEVICE    srnet6-0603x4-a1
+SEARCH   3754    1838
+BOUND    -200       0       0
+BODY     3244    1441       0     200       0      16
+LEADS     350       0      50       0     800       0
+PADS      300     300       0       0       0       0
+NUM_PINS    0       0       4       4
+THRESH     35     300     300     150       0       0       0       0       0       0
+FILTER      0     270     300      50
+CAMDATA     6     161       0       0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+GENERAL_p    0       0       0       0      0      1
+
+# ResNetwork Array rnet-0603x4
+DEVICE    srnet8-0603x4
+SEARCH   2500    3600
+BOUND    -200       0       0
+BODY     1600    3500       0     200       0      32
+LEADS       0     350      50       0     800       0
+PADS      300     300       0       0       0       0
+NUM_PINS    4       4       0       0
+THRESH     90     175     100      75       0       0      20       0       0       0
+FILTER      0     350     400      50
+CAMDATA     6     161       0       0
+PASTE     600     600       0    1200       0       0       0       0
+
+# SSOP SSOP14 (6200x7800um) SSOP14
+DEVICE    ssop14-5k4
+SEARCH   5100    7800
+BOUND       0      40       0
+BODY        0    5350       2       0       5       0
+LEADS     250    1000     100      85     650       0
+PADS      200     200       0       0       0       0
+NUM_PINS    0       0       7       7
+THRESH     80     140     160      70       5      40      10       0       0       0
+FILTER      0     300     300      45
+CAMDATA   262     161       0     150
+Orient0  1600    1900     450     450      0      0      1  -5  0   0   0 0 1 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP SSOP14 (6200x7800um) SSOP14
+DEVICE    ssop14-6k5
+SEARCH   5200    8800
+BOUND       0      40       0
+BODY        0    6500       2       0       5       0
+LEADS     280    1270     100      85     650       0
+PADS      200     200       0       0       0       0
+NUM_PINS    0       0       7       7
+THRESH     80     140     155      70       0      40      10       0       0       0
+FILTER      0     300     300      65
+CAMDATA   262     161       0     150
+Orient0 -1677   -1984     450     450      0      0      1  -5  0   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP SSOP16 (6200x7800um)
+DEVICE    ssop16-5k
+SEARCH   5200    6500
+BOUND       0      40       0
+BODY        0    5000       2       0       5       0
+LEADS     220    1000     100      85     635       0
+PADS      200     200       0       0       0       0
+NUM_PINS    0       0       8       8
+THRESH     80     125     155      70       5      40      10       0       0       0
+FILTER      0     300     300      45
+CAMDATA   262     161       0     150
+Orient0 -1700       0     150    1000      0      0      0 -10  0   0   0 0 0 ""
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP ssop16
+DEVICE    ssop16-5k4
+SEARCH   6200    7500
+BOUND       0      40       0
+BODY        0    5400       2       0       5       0
+LEADS     250    1000     100      85     650       0
+PADS      200     200       0       0       0       0
+NUM_PINS    0       0       8       8
+THRESH     80     125     155      70       0      40      10       0       0       0
+FILTER      0     200     300      45
+CAMDATA   262     161       0     150
+Orient0 -1200   -1500     450     450      0      0      1   0  0   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP ssop16
+DEVICE    ssop16-6k5
+SEARCH   6200    8800
+BOUND       0      40       0
+BODY        0    6400       2       0       5       0
+LEADS     250    1400     100      85     650       0
+PADS      200     200       0       0       0       0
+NUM_PINS    0       0       8       8
+THRESH     80     125     155      70       0      40      10       0       0       0
+FILTER      0     300     300      45
+CAMDATA   262     161       0     150
+Orient0  1600    1900     450     450      0      1      1 -10  0   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP ssop20 (7200x7800um) QSOP20
+DEVICE    ssop20-5k
+SEARCH   6900    7200
+BOUND       0      40       0
+BODY        0    4950       2       0       5       0
+LEADS     250    1050     100      85     635       0
+PADS      250     250       0       0       0       0
+NUM_PINS    0       0      10      10
+THRESH     80     125     175      70       0      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0 -1700       0     200    2000      0      0      0   0  0   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP SSOP20 (7200x7800um) SSOP20
+DEVICE    ssop20-5k4
+SEARCH   7500    8800
+BOUND       0      40       0
+BODY        0    5400       2       0       5       0
+LEADS     220    1000     100      85     650       0
+PADS      180     180       0       0       0       0
+NUM_PINS    0       0      10      10
+THRESH     80     145     155      70       0      40      10       0       0       0
+FILTER      0     200     300      45
+CAMDATA   262     161       0     150
+Orient0 -1400   -2400     450     450      0      0      0   0  0   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP SSOP20 (7200x7800um) SSOP20
+DEVICE    ssop20-6k5
+SEARCH   7000    8800
+BOUND       0      40       0
+BODY        0    6500       2       0       5       0
+LEADS     270    1270     100      85     650       0
+PADS      250     250       0       0       0       0
+NUM_PINS    0       0      10      10
+THRESH     80     145     155      70       0      40      10       0       0       0
+FILTER      0     300     300      65
+CAMDATA   262     161       0     150
+Orient0  1400    2400     450     450      0      0      0  -8  0   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP ssop24
+DEVICE    ssop24-5k
+SEARCH   8200    7400
+BOUND      50      40       0
+BODY        0    4800       2       0       5       0
+LEADS     220    1150     100      85     635       0
+PADS      180     180       0       0       0       0
+NUM_PINS    0       0      12      12
+THRESH     80     125     145      70       0      40      10       0       0       0
+FILTER      0     200     300      45
+CAMDATA   262     161       0     150
+Orient0  1048    3423     550     550      0      1      1 -10  0   0   0 0 0 ""
+Orient1  1581       0     150    1000      0      0      0 -10  0   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP ssop24
+DEVICE    ssop24-6k5
+SEARCH   8200    8000
+BOUND      50      20       0
+BODY        0    6400       2       0       5       0
+LEADS     250    1200     100      85     650       0
+PADS      180     180       0       0       0       0
+NUM_PINS    0       0      12      12
+THRESH     80     125     145      70       0      40      10       0       0       0
+FILTER      0     200     300      45
+CAMDATA   262     161       0     150
+Orient0 -1400   -2900     550     550      0      5      1  -4  0   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP ssop24 
+DEVICE    ssop28-5k
+SEARCH  10136    7200
+BOUND      50      40       0
+BODY        0    4800       2       0       5       0
+LEADS     220    1150     100      85     635       0
+PADS      180     180       0       0       0       0
+NUM_PINS    0       0      14      14
+THRESH     80     125     145      70       0      40      10       0       0       0
+FILTER      0     200     300      45
+CAMDATA   262     161       0     150
+Orient0  -800   -4000     550     550      0      1      1  -8  0   0   0 0 0 ""
+Orient1  1581       0     150    1000      0      0      0 -10  0   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP SSOP20 (7200x7800um) SSOP20
+DEVICE    ssop28-5k4
+SEARCH  10300    7200
+BOUND       0      40       0
+BODY        0    5400       2       0       5       0
+LEADS     220    1000     100      85     650       0
+PADS      180     180       0       0       0       0
+NUM_PINS    0       0      14      14
+THRESH     80     145     155      70       0      40      10       0       0       0
+FILTER      0     200     300      45
+CAMDATA   262     161       0     150
+Orient0  1223    3795     450     450      0      0      0  -8  0   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP ssop28
+DEVICE    ssop28-6k5
+SEARCH  10521    9200
+BOUND       0      20       0
+BODY        0    6500       2       0       5       0
+LEADS     280    1200     100      85     650       0
+PADS      180     180       0       0       0       0
+NUM_PINS    0       0      14      14
+THRESH     80     125     145      70       0      40      10       0       0       0
+FILTER      0     200     300      45
+CAMDATA   262     161       0     150
+Orient0 -1600   -4100     550     550      0      0      0  -5  0   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP sol36 SO36L
+DEVICE    ssop36-12k6
+SEARCH  12131   15463
+BOUND       0      40       0
+BODY        0   12533       2       0       5       0
+LEADS     335    1639     100      85     650       0
+PADS      304     401       0       0       0       0
+NUM_PINS    0       0      18      18
+THRESH     80     120     120      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0 -1740      -3     797    2932      0      2      1   0  0   0   0 0 1 ""
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP SSOP48 25 mil pitch
+DEVICE    ssop48-9k
+SEARCH  16849   12755
+BOUND       0      40       0
+BODY        0    8950       2       0       5       0
+LEADS     250    1425     100      85     635       0
+PADS      180     180       0       0       0       0
+NUM_PINS    0       0      24      24
+THRESH     80     120     120      70       0      40      10       0       0       0
+FILTER      0     200     300      45
+CAMDATA   262     161       0     150
+Orient0 -3400       0     150    1000      0      0      0 -10  0   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP SSOP56 (18420x10310um) SSOP56
+DEVICE    ssop56-9k
+SEARCH  18500   11400
+BOUND       0      40       0
+BODY        0    8900       2       0       5       0
+LEADS     270    1590     100      85     640       0
+PADS      250     250       0       0       0       0
+NUM_PINS    0       0      28      28
+THRESH     80     145     155      70       0      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0  2200    7700     850     850      0      4      1 -10  0   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP SOp64
+DEVICE    ssop64-7k
+SEARCH  17000    8700
+BOUND       0      40       0
+BODY        0    7000       2       0       5       0
+LEADS     200    1100      75      85     500       0
+PADS      200     250       0       0       0       0
+NUM_PINS    0       0      32      32
+THRESH     80     800     800      70       5      40      10       0       0       0
+FILTER    500     200     300      65
+CAMDATA   262     161       0     150
+Orient0  2300    7800     500     550      0      5      1   2  0   0 7600 0 0 ""
+ALocation_p    2       2       0   
+
+# SSOP ssop80
+DEVICE    ssop80-5k
+SEARCH  21000    7000
+BOUND       0       0       0
+BODY        0    4950       2       0       5       0
+LEADS     200    1050      75      85     500       0
+PADS      150     150       0       0       0       0
+NUM_PINS    0       0      40      40
+THRESH     80     100     155      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0  1700       0     150    1000      0      0      0 -10  0   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP ssop8
+DEVICE    ssop8-3k5
+SEARCH   3200    5000
+BOUND       0      40       0
+BODY        0    3400       2       0       5       0
+LEADS     220     650      50      85     650       0
+PADS      150     150       0     200       0       0
+NUM_PINS    0       0       4       4
+THRESH     80     100     100      70       0      40      10       0       0       0
+FILTER      0     200     200      45
+Colour      0       0       0       0     60      0      0   0     0
+CAMDATA   262     161       0     150
+Orient0   700     900     450     450      0      4      1 -10  0   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+ALocation_p    2       2       0   
+
+# SSOP SSOP8
+DEVICE    ssop8-5k4
+SEARCH   2818    7203
+BOUND       0      40       0
+BODY        0    5500       2       0       5       0
+LEADS     230     961     100      85     650       4
+PADS      250     250       0       0       0       0
+NUM_PINS    0       0       4       4
+THRESH     80     185     250      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0  1000     700     443     506      0      1      0   2  0   0   0 0 1 ""
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP SOP32 STSOP32 (20000x8000um) TSOP32
+DEVICE    stsop32-19k
+SEARCH   8200   21000
+BOUND       0      40       0
+BODY        0   19200       2       0       5       0
+LEADS     150     850      75      85     500       0
+PADS      150     200       0       0       0       0
+NUM_PINS    0       0      16      16
+THRESH     80     250     250      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0  8200    3000     600     600      0      5      1   0  0   0   0 0 2 ""
+ALocation_p    2       2       0   
+
+# SSOP tsop40
+DEVICE    stsop40-19k
+SEARCH  10600   21000
+BOUND       0       0       0
+BODY        0   19200       2       0       5       0
+LEADS     200     800      75      85     500       0
+PADS      150     150       0       0       0       0
+NUM_PINS    0       0      20      20
+THRESH     80     110     145      70       0      40      10       0       0       0
+FILTER      0     200     300      45
+CAMDATA   262     161       0     150
+Orient0  8300    4000     550     550      0      0      0  -8  0   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP tsop44
+DEVICE    stsop44-11k
+SEARCH  18653   12889
+BOUND    -100      40       0
+BODY        0   10900       2       0       5       0
+LEADS     350     800     150      85     800       0
+PADS      200     200       0       0       0       0
+NUM_PINS    0       0      22      22
+THRESH     80     180     200      70       0      40      10       0       0       0
+FILTER      0     200     300      40
+CAMDATA   262     161       0     150
+Orient0  3900    8000     550     550      0      0      0 -10  0   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP STSOP48 (20000x12000um) TSOP48
+DEVICE    stsop48-19k
+SEARCH  12099   21200
+BOUND       0      40       0
+BODY        0   19200       2       0       5       0
+LEADS     200     800      75      85     500       0
+PADS      180     180       0       0       0       0
+NUM_PINS    0       0      24      24
+THRESH     80     110     120      70       0      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0  8096    4993     850     850      0      5      1 -10  0   0   0 0 4 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP tsop50
+DEVICE    stsop50-11k
+SEARCH  20000   12900
+BOUND       0      40       0
+BODY        0   11000       2       0       5       0
+LEADS     380     800     150      85     800       0
+PADS      250     250       0       0       0       0
+NUM_PINS    0       0      25      25
+THRESH     80     200     200      70       0      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0 -1200   -2700     550     550      0      0      0   0  0   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP sTSOP54 (22200x11760um) TSOP54
+DEVICE    stsop54-11k
+SEARCH  22500   12900
+BOUND       0      40       0
+BODY        0   10950       2       0       5       0
+LEADS     300     800     150      85     800       0
+PADS      250     250       0       0       0       0
+NUM_PINS    0       0      27      27
+THRESH     80     145     155      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0 -3600   -9700     550     550      0      4      1   0  0   0   0 0 0 ""
+PASTE     600     600       0    1200       0       0       0       0
+
+# SSOP STSOP56 (20000x14000um) TSOP56
+DEVICE    stsop56-15k
+SEARCH  23000   17000
+BOUND    -200      60       0
+BODY        0   14800       2       0       5       0
+LEADS     350    1400      75      85     800       0
+PADS      180     180       0       0       0       0
+NUM_PINS    0       0      28      28
+THRESH     80     110     110      70       0      40      10       0       0       0
+FILTER      0     200     300      45
+CAMDATA   262     161       0     150
+Orient0  5400   10800     700     700      0      0      0  -5  0   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP tsop86
+DEVICE    stsop86-11k
+SEARCH  18500    5500
+BOUND       0      40       0
+BODY        0   11000       2       0       5       0
+LEADS     200     800      75      85     500       0
+PADS      180     180       0       0       0       0
+NUM_PINS    0       0      43      43
+THRESH     80     145     155      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0 -2200   -7700     850     850      0      4      1   0  0   0   0 0 0 ""
+PASTE     600     600       0    1200       0       0       0       0
+
+# SSOP TSSOP14
+DEVICE    stssop14-5k4
+SEARCH   5200    8800
+BOUND       0      40       0
+BODY        0    5400       2       0       5       0
+LEADS     250    1000     100      85     650       0
+PADS      200     200       0       0       0       0
+NUM_PINS    0       0       7       7
+THRESH     80     125     155      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0 -1200   -1500     450     450      0      0      1   0  0   0   0 0 0 ""
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP TSSOP24
+DEVICE    stssop24-5k4
+SEARCH   8200    7200
+BOUND       0      40       0
+BODY        0    5450       2       0       5       0
+LEADS     225     950     100      85     650       0
+PADS      200     200       0       0       0       0
+NUM_PINS    0       0      12      12
+THRESH     80     125     145      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0 -1200   -2700     550     550      0      0      0   0  0   0   0 0 0 ""
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP tssop40
+DEVICE    stssop40-15k
+SEARCH   8200   16500
+BOUND       0      40       0
+BODY        0   15000       2       0       5       0
+LEADS     200     800     100      85     650       0
+PADS      180     180       0       0       0       0
+NUM_PINS    0       0      20      20
+THRESH     80     125     145      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0 -1200   -2700     550     550      0      0      0   0  0   0   0 0 0 ""
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP STSSOP48_16mil (12500x8100um) TSSOP48 16 mil pitch
+DEVICE    stssop48-5k
+SEARCH  11300    6600
+BOUND       0      40       0
+BODY        0    5200       2       0       5       0
+LEADS     200     800      75      85     400       0
+PADS      180     180       0       0       0       0
+NUM_PINS    0       0      24      24
+THRESH     80     120     120      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0 -1075   -4250     450     450      0      1      1   0  0   0   0 0 0 ""
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP STSSOP48 (12500x8100um) TSSOP48
+DEVICE    stssop48-7k
+SEARCH  12500    9200
+BOUND       0      40       0
+BODY        0    7100       2       0       5       0
+LEADS     200    1000      75      85     500       0
+PADS      180     180       0       0       0       0
+NUM_PINS    0       0      24      24
+THRESH     80     120     120      70       5      40      10       0       0       0
+FILTER      0     200     300      65
+CAMDATA   262     161       0     150
+Orient0 -2100   -5300     550     550      0      1      1   0  0   0   0 0 0 ""
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP tssop56
+DEVICE    stssop56-7k
+SEARCH  15000    8800
+BOUND       0       0       0
+BODY        0    7050       2       0       5       0
+LEADS     200    1000      75      85     500       0
+PADS      150     150       0       0       0       0
+NUM_PINS    0       0      28      28
+THRESH     80     110     155      70       5      40      10       0       0       0
+FILTER      0     200     300      45
+CAMDATA   262     161       0     150
+Orient0  2400    6200     500     500      0      0      1  -5  0   0   0 0 0 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# SSOP STSSOP48 (12500x8100um) TSSOP48
+DEVICE    stssop86-11k
+SEARCH  22000   12300
+BOUND       0       0       0
+BODY        0   11050       2       0       5       0
+LEADS     200     900      75      85     500       0
+PADS      180     180       0       0       0       0
+NUM_PINS    0       0      43      43
+THRESH     80     110     180      70       0      40      10       0       0       0
+FILTER      0     200     300      45
+CAMDATA   262     161       0     150
+Orient0 -2207   -10464     950     300      0      2      1 -50  0   0   0 0 2 ""
+EXTRA_p     0       0       0       0      0      8      0   0
+PASTE     600     600       0    1200       0       0       0       0
+ALocation_p    2       2       0   
+
+# default Transistor
+DEVICE    tdefault
+SEARCH   3150    4000
+BOUND       0       0       0
+BODY     1250    1250       0       0       0       0
+LEADS     425     300       0       0       0       0
+PADS     1000    1000       0       0       0       0
+NUM_PINS    1       0       0       0
+THRESH     50     300     300     100       0       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     0       0       0       0
+
+# SOT transistor #NAME?
+DEVICE    tsot23
+SEARCH   3500    3500
+BOUND       0       0       0
+BODY     1500    1950       0       0       0       0
+LEADS     200     400     200     700      90       0
+PADS      650    1016       0       0       0       0
+NUM_PINS    1       0       0       0
+THRESH   -400     250     250     150      65       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     0       0       8       0
+
+DEVICE    udefault
+SEARCH   6000    7000
+BOUND       0       0       0
+BODY        0       0       0       0       0       0
+LEADS       0       0       0       0       0       0
+PADS        0       0       0       0       0       0
+NUM_PINS    0       0       0       0
+THRESH    100     375     375     120       0       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     0       0       0       0
+
+# PowerTransistor D2PAK (10000x15200um) zD2PAK
+DEVICE    zd2pak
+SEARCH  18000   10000
+BOUND    -200     450       0
+BODY    12400       0   -6700       0       0       0
+LEADS     400    1200     300       0    5200       0
+PADS        0       0       0       0       0       0
+NUM_PINS    0       2       0       0
+THRESH    140     500     900     100       0       0      20       0       0       0
+FILTER      0     600    1900       0
+CAMDATA     6     161       0     180
+PASTE     600     600       0    1200       0       0       0       0
+
+# default Single Side SOIC
+DEVICE    zdefault
+SEARCH  12000    9000
+BOUND       0       0       0
+BODY        0    6100       0       0       0       0
+LEADS     250    1000       0       0     650       0
+PADS      250     400       0       0       0       0
+NUM_PINS    0       0      16       0
+THRESH     50     300     300      70       0       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     0       0       0       0
+
+# PowerTransistor DPAK (6500x9500um) DPAK
+DEVICE    zdpak
+SEARCH   7000   12500
+BOUND    -850     350       0
+BODY        0       0    4200       0       0       0
+LEADS     850     900     400       0    4482       0
+PADS        0       0       0       0       0       0
+NUM_PINS    0       0       2       0
+THRESH    150     450     450     100       0       0       0       0       0       0
+FILTER      0    1300    1900     300
+CAMDATA     6     161       0       0
+PASTE     600     600       0    1200       0       0       0       0
+
+# PowerTransistor SOT223 (6500x7000um) SOT Transistor
+DEVICE    zsot223
+SEARCH   7000    8000
+BOUND    -800     160       0
+BODY        0       0    2400       0       0       0
+LEADS     700    1000     400       0    2300       0
+PADS        0       0       0       0       0       0
+NUM_PINS    0       0       3       0
+THRESH    150     900     900     100       0       0       0       0       0       0
+FILTER      0     600     800     220
+CAMDATA     6     161       0       0
+
+# PowerTransistor D2PAK (18000x12000um) zto263-5pin
+DEVICE    zto263-5pin
+SEARCH  18000   10000
+BOUND    -200     250       0
+BODY    12400       0       0   -6700       0       0
+LEADS     400    1200     400       0    1500       0
+PADS        0       0       0       0       0       0
+NUM_PINS    5       0       0       0
+THRESH    140    1200     250     100       0       0       0       0       0       0
+FILTER      0     600    1900       0
+CAMDATA     6     161       0     180
+PASTE     600     600       0    1200       0       0       0       0
+
+# ds shape sm00186 P/N 1990-1717
+DEVICE    rds-sm00186pol
+SEARCH   2800    1790
+BOUND       0       0       0
+BODY     1980    1250       0       0      15      64
+LEADS     350    1250       0       0       0       0
+PADS      250    1050       0     150       0       0
+NUM_PINS    0     180       0     180
+THRESH    100     230     230      60      60       0       0       0       0       0
+FILTER      4     500       1       0
+Colour      0       0       0       1      0      0      0 255     4
+CAMDATA    50      34       0       0
+Orient0    19    -253     250     200      0      3      0 -15  0   0   0 0 1 ""
+PASTE      25      70     200       0       0      50       0      50
+ALocation_p    0      50     160   
+
+
+USER      A1990-3859  
+# default Bright Box
+DEVICE    b-3959
+SEARCH   3051    1772
+BOUND       0       0       0
+BODY     1945    1283       0       0      44       0
+LEADS     432     897     530     -19       6       0
+PADS      300    1264       0       0       0       0
+NUM_PINS    0     180       0       0
+THRESH    400     200     200      50      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       0      0      0      0 255     4
+CAMDATA     7       0       0       0
+Orient0  -512    -492     139     178      0      0      0 -30  0   0   0 0 0 ""
+PASTE       0       0       0       0       0      50       0      50
+ALocation_p    0      50     160   
+
+
+USER      A1990-3860  
+# default Bright Box
+DEVICE    b-3860
+SEARCH   3053    1963
+BOUND       0       0       0
+BODY     1945    1283     -76     -38      44       0
+LEADS     357    1010     549     -38       6       0
+PADS      300    1200       0       0       0       0
+NUM_PINS    0     180       0       0
+THRESH    400     180     180      50      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       0      0      0      0 255     4
+CAMDATA     6       0      32       0
+Orient0  -531    -436     139     178      0      0      0 -30  0   0   0 0 0 ""
+PASTE       0       0       0       0       0      50       0      50
+ALocation_p    0      50     160   
+
+
+USER      A1990-3899  
+# FUSE 1206
+DEVICE    ba1990-3899
+SEARCH   2375    1064
+BOUND       0       0       0
+BODY     1568     779       0       0      44       0
+LEADS     310     424     437       0       6       0
+PADS      200     678      50     200       0       0
+NUM_PINS    0     180       0       0
+THRESH    400     150     150      80      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       0      0      0      0 255     4
+CAMDATA     4       0      32       0
+Orient0    19     266     215     177      0      1      1 -10  0   0   0 0 1 ""
+PASTE       0       0       0       0       0      50       0      50
+ALocation_p    0      50     160   
+
+
+USER      A1990-3900  
+# FUSE 1206
+DEVICE    bsm01216-3900
+SEARCH   2375    1064
+BOUND       0       0       0
+BODY     1568     779       0       0      44       0
+LEADS     310     424     437       0       6       0
+PADS      200     564      50     200       0       0
+NUM_PINS    0     180       0       0
+THRESH    100     150     150      80      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       0      0      0      0 255     4
+CAMDATA     4       0      32       0
+Orient0     0     228     215     177      0      1      1  -5  0   0   0 0 2 ""
+PASTE       0       0       0       0       0      50       0      50
+ALocation_p    0      50     160   
+
+# diode 0805 shape sm01002 P/N 1990-2855
+DEVICE    cds-sm01002
+SEARCH   2697    1483
+BOUND       0       0       0
+BODY     2000    1180       0       0      13       4
+LEADS     180    1180       0       0       0       1
+PADS      150    1000      10     200       0       0
+NUM_PINS  400     180       0       0
+THRESH    110     200     300     120      50       0       0       0       0       0
+FILTER      0     250       0       0
+Colour      0       0       0       0      0      0      0 255     4
+CAMDATA    51      34       0       0
+Orient0    34     268     179     174      0      4      1 -10  0   0   0 0 1 ""
+PASTE      30      80     180       0       0      50       0      50
+ALocation_p    0      50     160   
+
+# Capacitor 0805 dull P/N 0160-7798
+DEVICE    c0160-led-3853
+SEARCH   3147    1644
+BOUND       0       0       0
+BODY     2000    1250       0       0      13      64
+LEADS     280    1250       0       0       0       0
+PADS      220     975      38     250       0       0
+NUM_PINS    0     190       0       0
+THRESH    100     250     250      60      50       0       0       0       0       0
+FILTER      0     250       0       0
+Colour      0       0       0       1      0      0      0 255     4
+CAMDATA    19      34       0       0
+Orient0   437     514     156     232      0      0      0 -20  0   0   0 0 0 ""
+EXTRA_p     0       0       0       2      0      0      0   0
+PASTE      30      50     200       0       0      50       0      50
+ALocation_p    0      50     160   
+
+
+USER      A1990-3898  
+# FUSE 1206
+DEVICE    ba1990-3898
+SEARCH   2375    1064
+BOUND       0       0       0
+BODY     1568     779       0       0      44       0
+LEADS     310     424     437       0       6       0
+PADS      200     564      50     200       0       0
+NUM_PINS    0     180       0       0
+THRESH    400     150     150      80      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       0      0      0      0 255     4
+CAMDATA     4       0       0       0
+Orient0   -19    -209     215     177      0      5      1 -10  0   0   0 0 1 ""
+PASTE       0       0       0       0       0      50       0      50
+ALocation_p    0      50     160   
+
+# Dummy Device to Ignore Components !
+DEVICE    n0000
+SEARCH   3200    3200
+BOUND       0       0       0
+BODY     2286    2032       0       0       0       0
+LEADS       0       0       0       0       0       0
+PADS        0       0       0       0       0       0
+NUM_PINS    0       0       0       0
+THRESH    180    2514    2514     999       0       0       0       0       0       0
+FILTER      0       0       0       0
+CAMDATA     0       0       0       0
+
+
+USER      A1990-3901  
+# FUSE 1206
+DEVICE    bsm02633-3901
+SEARCH   2375    1064
+BOUND       0       0       0
+BODY     1568     779       0       0      44       0
+LEADS     310     424     437       0       6       0
+PADS      200     564      50     200       0       0
+NUM_PINS    0     180       0       0
+THRESH    400     150     150      80      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       0      0      0      0 255     4
+CAMDATA     4       0       0       0
+Orient0   -19    -209     215     177      0      5      1 -10  0   0   0 0 1 ""
+PASTE       0       0       0       0       0      50       0      50
+ALocation_p    0      50     160   
+
+
+USER      A1990-3853  
+# LED (1600x1600um) SMT
+DEVICE    bsm01720-3853
+SEARCH   2620    1592
+BOUND       0       0       0
+BODY     1900    1200      76    -133      44       0
+LEADS     310     386    -590     190       6       0
+PADS      250     800       0     200       0       0
+NUM_PINS    0     180       0       0
+THRESH    400     150     150      60      40       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       0      0      0      0 255     4
+CAMDATA     7       0       0       0
+Orient0  -438     437     176     174      0      4      0 -10  0   0   0 0 0 ""
+PASTE       0       0       0       0       0      50       0      50
+ALocation_p    0      50     160   
+
+
+USER      A1990-2855  
+# LED (1600x1600um) SMT
+DEVICE    bsm01002-2855
+SEARCH   2620    1592
+BOUND       0       0       0
+BODY     1900    1200      76    -133      44       0
+LEADS     310     386    -590     190       6       0
+PADS      234     800       0     200       0       0
+NUM_PINS    0     180       0       0
+THRESH    400     200     200      60      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       0      0      0      0 255     4
+CAMDATA     6       0       0       0
+Orient0   -21     248     176     174      0      4      1 -10  0   0   0 0 0 ""
+PASTE       0       0       0       0       0      50       0      50
+ALocation_p    0      50     160   
+
+
+USER      A1990-1713  
+# LED (1600x1600um) SMT
+DEVICE    bsm00186-1713
+SEARCH   2620    1592
+BOUND       0       0       0
+BODY     1900    1200      76    -133      44       0
+LEADS     310     386    -590     190       6       0
+PADS      234     800       0     200       0       0
+NUM_PINS    0     190       0       0
+THRESH    200     150     150      60      50       0       0       0       0       0
+FILTER      0       0       0       0
+Colour      0       0       0       0      0      0      0 255     4
+CAMDATA     7       0       0       0
+Orient0   -78     229     176     174      0      4      1 -10  0   0   0 0 0 ""
+PASTE       0       0       0       0       0      50       0      50
+ALocation_p    0      50     160   
+
+! OCVDatabase
+
+
+******************************************* COMPLETED *******************************************
+@
+
+
+1.1.1.1
+log
+@initial import by starke
+@
+text
+@@

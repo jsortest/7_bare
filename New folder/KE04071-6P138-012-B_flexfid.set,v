@@ -1,0 +1,42 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  V_2-TE-KE00-289-1_0_0_0:1.1.1.1 Keysight:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2017.04.13.07.03.39;  author user2;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2017.04.13.07.03.39;  author user2;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#[Set Global(0) or Local(1) mode for Flexible Fiducial]
+0
+#[save Result to c:\flexfid_pt.txt]
+0
+@
+
+
+1.1.1.1
+log
+@initial import by starke
+@
+text
+@@
